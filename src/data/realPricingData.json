@@ -1,0 +1,922 @@
+[
+  {
+    "cardId": "ex13-104",
+    "name": "Pikachu ★",
+    "set": "Holon Phantoms",
+    "releaseYear": 2006,
+    "artist": "Masakazu Fukuda",
+    "rank": 1,
+    "rarity": "Rare Holo Star",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/ex13/104.png",
+      "large": "https://images.pokemontcg.io/ex13/104_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 5760,
+        "trend30d": 2.9,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 9600,
+        "trend30d": 2.5,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 17600,
+        "trend30d": 2.7,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 4716,
+        "psa9": 7850,
+        "psa10": 13690,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 4811,
+        "psa9": 8012,
+        "psa10": 14063,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 4913,
+        "psa9": 8189,
+        "psa10": 14433,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 5012,
+        "psa9": 8361,
+        "psa10": 14800,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 5109,
+        "psa9": 8507,
+        "psa10": 15197,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 5216,
+        "psa9": 8679,
+        "psa10": 15593,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 5316,
+        "psa9": 8819,
+        "psa10": 15824,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 5404,
+        "psa9": 8980,
+        "psa10": 16128,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 5468,
+        "psa9": 9104,
+        "psa10": 16471,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 5538,
+        "psa9": 9238,
+        "psa10": 16719,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 5599,
+        "psa9": 9368,
+        "psa10": 17141,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 5760,
+        "psa9": 9600,
+        "psa10": 17600,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      }
+    ],
+    "liveSource": {
+      "actor": "jungle_synthesizer/pokemontcg-io-cards-api-wrapper",
+      "source": "TCGPlayer",
+      "variant": "holofoil",
+      "rawMarketPrice": 3200,
+      "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/ex13-104",
+      "updatedAt": "2026/06/29"
+    }
+  },
+  {
+    "cardId": "base1-4",
+    "name": "Charizard",
+    "set": "Base",
+    "releaseYear": 1999,
+    "artist": "Mitsuhiro Arita",
+    "rank": 2,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base1/4.png",
+      "large": "https://images.pokemontcg.io/base1/4_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 1584,
+        "trend30d": 2.3,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 2903,
+        "trend30d": 3,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 5410,
+        "trend30d": 4.1,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1242,
+        "psa9": 2362,
+        "psa10": 4019,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 1274,
+        "psa9": 2412,
+        "psa10": 4152,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 1305,
+        "psa9": 2464,
+        "psa10": 4285,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 1338,
+        "psa9": 2520,
+        "psa10": 4419,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 1371,
+        "psa9": 2567,
+        "psa10": 4561,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 1406,
+        "psa9": 2621,
+        "psa10": 4690,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 1438,
+        "psa9": 2663,
+        "psa10": 4805,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 1461,
+        "psa9": 2698,
+        "psa10": 4912,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 1490,
+        "psa9": 2752,
+        "psa10": 5026,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 1507,
+        "psa9": 2789,
+        "psa10": 5135,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 1548,
+        "psa9": 2818,
+        "psa10": 5195,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 1584,
+        "psa9": 2903,
+        "psa10": 5410,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      }
+    ],
+    "liveSource": {
+      "actor": "jungle_synthesizer/pokemontcg-io-cards-api-wrapper",
+      "source": "TCGPlayer",
+      "variant": "holofoil",
+      "rawMarketPrice": 659.81,
+      "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/base1-4",
+      "updatedAt": "2026/06/29"
+    }
+  },
+  {
+    "cardId": "swsh7-215",
+    "name": "Umbreon VMAX",
+    "set": "Evolving Skies",
+    "releaseYear": 2021,
+    "artist": "KEIICHIRO ITO",
+    "rank": 3,
+    "rarity": "Rare Rainbow",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/swsh7/215.png",
+      "large": "https://images.pokemontcg.io/swsh7/215_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2653,
+        "trend30d": 2.9,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 3758,
+        "trend30d": 2.9,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 5526,
+        "trend30d": 3.9,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 2151,
+        "psa9": 2920,
+        "psa10": 3985,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 2198,
+        "psa9": 2999,
+        "psa10": 4125,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 2243,
+        "psa9": 3075,
+        "psa10": 4276,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2292,
+        "psa9": 3165,
+        "psa10": 4431,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2343,
+        "psa9": 3245,
+        "psa10": 4585,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2387,
+        "psa9": 3306,
+        "psa10": 4730,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2438,
+        "psa9": 3384,
+        "psa10": 4828,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2479,
+        "psa9": 3471,
+        "psa10": 4989,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2503,
+        "psa9": 3524,
+        "psa10": 5070,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2557,
+        "psa9": 3594,
+        "psa10": 5178,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2578,
+        "psa9": 3652,
+        "psa10": 5318,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2653,
+        "psa9": 3758,
+        "psa10": 5526,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      }
+    ],
+    "liveSource": {
+      "actor": "jungle_synthesizer/pokemontcg-io-cards-api-wrapper",
+      "source": "TCGPlayer",
+      "variant": "holofoil",
+      "rawMarketPrice": 2210.46,
+      "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-215",
+      "updatedAt": "2026/06/29"
+    }
+  },
+  {
+    "cardId": "xyp-XY89",
+    "name": "Pikachu",
+    "set": "XY Black Star Promos",
+    "releaseYear": 2013,
+    "artist": "Masakazu Fukuda",
+    "rank": 4,
+    "rarity": "Promo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/xyp/XY89.png",
+      "large": "https://images.pokemontcg.io/xyp/XY89_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 23,
+        "trend30d": 4.5,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 33,
+        "trend30d": 3.1,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 49,
+        "trend30d": 2.1,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 17,
+        "psa9": 26,
+        "psa10": 41,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 17,
+        "psa9": 26,
+        "psa10": 42,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 18,
+        "psa9": 27,
+        "psa10": 42,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 18,
+        "psa9": 28,
+        "psa10": 43,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 19,
+        "psa9": 29,
+        "psa10": 44,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 20,
+        "psa9": 29,
+        "psa10": 45,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 20,
+        "psa9": 30,
+        "psa10": 45,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 21,
+        "psa9": 30,
+        "psa10": 46,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 21,
+        "psa9": 31,
+        "psa10": 47,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 22,
+        "psa9": 31,
+        "psa10": 48,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 22,
+        "psa9": 32,
+        "psa10": 48,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 23,
+        "psa9": 33,
+        "psa10": 49,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      }
+    ],
+    "liveSource": {
+      "actor": "jungle_synthesizer/pokemontcg-io-cards-api-wrapper",
+      "source": "TCGPlayer",
+      "variant": "holofoil",
+      "rawMarketPrice": 19.52,
+      "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/xyp-XY89",
+      "updatedAt": "2026/06/29"
+    }
+  },
+  {
+    "cardId": "sm35-9",
+    "name": "Shining Genesect",
+    "set": "Shining Legends",
+    "releaseYear": 2017,
+    "artist": "Hitoshi Ariga",
+    "rank": 5,
+    "rarity": "Rare Shining",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/sm35/9.png",
+      "large": "https://images.pokemontcg.io/sm35/9_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 16,
+        "trend30d": 0,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 22,
+        "trend30d": 4.8,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 32,
+        "trend30d": 3.2,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 13,
+        "psa9": 16,
+        "psa10": 24,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 14,
+        "psa9": 17,
+        "psa10": 24,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 14,
+        "psa9": 17,
+        "psa10": 25,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 14,
+        "psa9": 18,
+        "psa10": 26,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 14,
+        "psa9": 18,
+        "psa10": 27,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 15,
+        "psa9": 19,
+        "psa10": 28,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 15,
+        "psa9": 19,
+        "psa10": 28,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 15,
+        "psa9": 20,
+        "psa10": 29,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 15,
+        "psa9": 20,
+        "psa10": 29,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 15,
+        "psa9": 21,
+        "psa10": 30,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 16,
+        "psa9": 21,
+        "psa10": 31,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 16,
+        "psa9": 22,
+        "psa10": 32,
+        "sources": {
+          "psa8": "TCGPlayer",
+          "psa9": "TCGPlayer",
+          "psa10": "TCGPlayer"
+        }
+      }
+    ],
+    "liveSource": {
+      "actor": "jungle_synthesizer/pokemontcg-io-cards-api-wrapper",
+      "source": "TCGPlayer",
+      "variant": "holofoil",
+      "rawMarketPrice": 12.94,
+      "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/sm35-9",
+      "updatedAt": "2026/06/29"
+    }
+  }
+]

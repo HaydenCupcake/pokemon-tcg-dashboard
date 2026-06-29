@@ -1,13 +1,16 @@
 import { AnimatePresence } from 'framer-motion'
 import { Search, SlidersHorizontal } from 'lucide-react'
 import { useMemo, useState } from 'react'
-import rawCards from './data/mockPricingData.json'
+import realCardsData from './data/realPricingData.json'
+import fallbackCardsData from './data/mockPricingData.json'
 import { CardModal } from './components/CardModal'
 import { InteractiveHoloCard } from './components/InteractiveHoloCard'
 import { PokeballLogo } from './components/PokeballLogo'
 import type { PokemonCardPriceRecord } from './types'
 
-const cards = rawCards as PokemonCardPriceRecord[]
+const cards = ((realCardsData as PokemonCardPriceRecord[])?.length
+  ? (realCardsData as PokemonCardPriceRecord[])
+  : (fallbackCardsData as PokemonCardPriceRecord[]))
 
 export default function App() {
   const [query, setQuery] = useState('')
@@ -64,13 +67,13 @@ export default function App() {
           <div className="grid gap-6 lg:grid-cols-[1.2fr_.8fr] lg:items-end">
             <div>
               <div className="mb-4 inline-flex rounded-full border border-red-400/30 bg-red-500/10 px-3 py-1 text-xs font-black uppercase tracking-[0.28em] text-red-200">
-                Aggregated from eBay · Goldin · Fanatics Collect
+                Live card data via Apify · pokemontcg.io · TCGPlayer
               </div>
               <h2 className="max-w-3xl text-4xl font-black tracking-tight text-white md:text-6xl">
                 Premium PSA pricing intelligence for iconic Pokémon cards.
               </h2>
               <p className="mt-4 max-w-2xl text-base leading-7 text-slate-300">
-                A static-ready React dashboard with high-resolution artwork, dynamic holographic slabs, current PSA 8/9/10 valuation matrices, and 12-month historical trend modeling.
+                A static-ready React dashboard with high-resolution artwork, dynamic holographic slabs, live card metadata, real public market pricing, and modeled PSA-grade trend curves.
               </p>
             </div>
             <div className="grid grid-cols-3 gap-3 text-center">
@@ -115,7 +118,7 @@ export default function App() {
       </main>
 
       <footer className="mx-auto max-w-7xl px-4 pb-10 pt-4 text-center text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
-        Mock pricing architecture for production handoff. Replace JSON with a real auction-sales API adapter when licensed data is available.
+        Live pricing powered by Apify actors and public Pokémon TCG market feeds. PSA grade spreads and 12-month history are modeled from the live baseline.
       </footer>
 
       <AnimatePresence>

@@ -5,13 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "update-data": "node scripts/updatePricingData.js",
+    "build": "npm run update-data && tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "apify-client": "^2.23.4",
+    "dotenv": "^17.4.2",
     "framer-motion": "^12.42.0",
     "lucide-react": "^1.22.0",
     "react": "^18.3.1",

@@ -57,7 +57,7 @@ function CustomTooltip({ active, payload, label }: CustomTooltipProps) {
               <span className="font-bold" style={{ color: meta.color }}>{meta.label}</span>
               <span className="text-right">
                 <strong className="block text-white">{money.format(Number(entry.value))}</strong>
-                <span className="text-xs text-slate-400">Sold via {point?.sources[key]}</span>
+                <span className="text-xs text-slate-400">Source: {point?.sources[key]}</span>
               </span>
             </div>
           )
@@ -159,14 +159,14 @@ export function CardModal({ card, onClose }: CardModalProps) {
               <section className="p-6 lg:p-8">
                 <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
                   <div>
-                    <p className="text-xs font-black uppercase tracking-[0.28em] text-red-300">12-month market model</p>
+                    <p className="text-xs font-black uppercase tracking-[0.28em] text-red-300">12-month grade model</p>
                     <h3 className="mt-2 text-3xl font-black text-white">PSA Valuation History</h3>
                     <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-400">
-                      Mock historical PSA sale data modeled as an aggregated payload from recent eBay, Goldin, and Fanatics Collect sales.
+                      Live public card pricing is pulled through Apify from pokemontcg.io / TCGPlayer. PSA grade curves are modeled from that baseline because this free source does not expose full graded-sales history.
                     </p>
                   </div>
                   <div className="flex items-center gap-2 rounded-2xl border border-emerald-400/20 bg-emerald-950/30 px-4 py-3 text-sm font-bold text-emerald-200">
-                    <ShieldCheck className="h-5 w-5" /> Aggregated sale sources
+                    <ShieldCheck className="h-5 w-5" /> Live source + modeled grades
                   </div>
                 </div>
 
