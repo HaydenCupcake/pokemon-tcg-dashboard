@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    font-family: Inter, system-ui, sans-serif;
+    background: #020617;
+    color: #f8fafc;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background:
+      radial-gradient(circle at top left, rgba(220, 38, 38, 0.22), transparent 28rem),
+      radial-gradient(circle at 75% 10%, rgba(56, 189, 248, 0.12), transparent 24rem),
+      linear-gradient(135deg, #020617 0%, #0f172a 44%, #111827 100%);
+  }
+
+  button,
+  input {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply border border-white/10 bg-slate-950/65 shadow-2xl backdrop-blur-xl;
+  }
+
+  .premium-scrollbar::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .premium-scrollbar::-webkit-scrollbar-track {
+    @apply bg-slate-950;
+  }
+
+  .premium-scrollbar::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-slate-700;
+  }
+}
