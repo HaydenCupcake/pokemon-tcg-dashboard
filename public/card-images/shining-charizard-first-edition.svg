@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 744 1038" role="img" aria-labelledby="title desc">
+  <title>Shining Charizard 1st Edition card artwork placeholder</title>
+  <desc>Neo Destiny 1st Edition canonical dashboard artwork panel</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111827"/><stop offset="0.52" stop-color="#0f172a"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+    <radialGradient id="shine" cx="35%" cy="20%" r="75%"><stop offset="0" stop-color="#fff" stop-opacity=".88"/><stop offset=".28" stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity=".55"/></filter>
+  </defs>
+  <rect width="744" height="1038" rx="42" fill="#111827"/>
+  <rect x="30" y="30" width="684" height="978" rx="32" fill="url(#bg)" stroke="#f8fafc" stroke-opacity=".5" stroke-width="6"/>
+  <rect x="58" y="58" width="628" height="72" rx="20" fill="#f8fafc" fill-opacity=".92"/>
+  <text x="372" y="105" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900" fill="#111827">Shining Charizard 1st Edition</text>
+  <rect x="88" y="162" width="568" height="562" rx="28" fill="#020617" fill-opacity=".64" stroke="#f8fafc" stroke-opacity=".34" stroke-width="4" filter="url(#shadow)"/>
+  <circle cx="372" cy="414" r="162" fill="#f59e0b" fill-opacity=".86"/>
+  <circle cx="372" cy="414" r="116" fill="#f8fafc" fill-opacity=".9"/>
+  <path d="M196 434c62-132 152-206 269-222 72 82 103 174 93 276-102 24-230 6-362-54z" fill="#111827" fill-opacity=".78"/>
+  <path d="M260 598c88-64 173-82 255-52 10 55-9 107-58 156-79 3-145-31-197-104z" fill="#f59e0b" fill-opacity=".72"/>
+  <rect x="102" y="752" width="540" height="54" rx="18" fill="#f8fafc" fill-opacity=".9"/>
+  <text x="372" y="788" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900" fill="#111827">Neo Destiny 1st Edition</text>
+  <rect x="132" y="832" width="480" height="78" rx="22" fill="#020617" fill-opacity=".72" stroke="#f8fafc" stroke-opacity=".22"/>
+  <text x="372" y="864" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#e2e8f0">CANONICAL DASHBOARD ART</text>
+  <text x="372" y="896" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="950" fill="#fff">SHINING 1ST · 2002</text>
+  <rect x="80" y="936" width="584" height="34" rx="17" fill="url(#shine)" opacity=".8"/>
+  <rect x="30" y="30" width="684" height="978" rx="32" fill="url(#shine)"/>
+</svg>

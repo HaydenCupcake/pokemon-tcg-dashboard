@@ -13,93 +13,121 @@ const rootDir = path.resolve(__dirname, '..')
 const APIFY_API_TOKEN = process.env.APIFY_API_TOKEN
 const APIFY_ACTOR_ID = process.env.APIFY_ACTOR_ID || 'jungle_synthesizer/pokemontcg-io-cards-api-wrapper'
 const OUTPUT_FILE = process.env.APIFY_OUTPUT_FILE || 'src/data/realPricingData.json'
-const SOURCE_LABEL = 'TCGPlayer'
 const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+const GRADES = ['psa8', 'psa9', 'psa10']
 
 if (!APIFY_API_TOKEN) {
   console.error('Missing APIFY_API_TOKEN in .env')
   process.exit(1)
 }
 
+const publicImageOverrides = {
+  'Illustrator Pikachu': {
+    small: '/pokemon-tcg-dashboard/card-images/illustrator-pikachu.svg',
+    large: '/pokemon-tcg-dashboard/card-images/illustrator-pikachu.svg',
+  },
+  '1st Edition Base Set Charizard': {
+    small: '/pokemon-tcg-dashboard/card-images/charizard-first-edition.svg',
+    large: '/pokemon-tcg-dashboard/card-images/charizard-first-edition.svg',
+  },
+  'Umbreon VMAX Alternate Art (Moonbreon)': {
+    small: '/pokemon-tcg-dashboard/card-images/umbreon-vmax-moonbreon.svg',
+    large: '/pokemon-tcg-dashboard/card-images/umbreon-vmax-moonbreon.svg',
+  },
+  'Mario Pikachu Full Art': {
+    small: '/pokemon-tcg-dashboard/card-images/mario-pikachu-full-art.svg',
+    large: '/pokemon-tcg-dashboard/card-images/mario-pikachu-full-art.svg',
+  },
+  'Shining Charizard 1st Edition': {
+    small: '/pokemon-tcg-dashboard/card-images/shining-charizard-first-edition.svg',
+    large: '/pokemon-tcg-dashboard/card-images/shining-charizard-first-edition.svg',
+  },
+}
+
 const cardRules = {
   'Illustrator Pikachu': {
     fallbackOnly: true,
-    fallbackReason: 'No exact Illustrator Pikachu record is available from the current free public source.',
+    fallbackReason: 'No exact Illustrator Pikachu record is available from the current public-card catalog.',
+    supplementalPath: '/game/pokemon-japanese-promo/illustrator-pikachu',
   },
   '1st Edition Base Set Charizard': {
     exactId: 'base1-4',
     preserveSeedIdentity: true,
-    queries: [
-      'id:base1-4',
-      'name:"Charizard" set.id:base1 number:4',
-    ],
+    queries: ['id:base1-4', 'name:"Charizard" set.id:base1 number:4'],
+    supplementalPath: '/game/pokemon-base-set/charizard-1st-edition-4',
   },
   'Umbreon VMAX Alternate Art (Moonbreon)': {
     exactId: 'swsh7-215',
     preserveSeedIdentity: true,
-    queries: [
-      'id:swsh7-215',
-      'name:"Umbreon VMAX" set.id:swsh7 number:215',
-    ],
+    queries: ['id:swsh7-215', 'name:"Umbreon VMAX" set.id:swsh7 number:215'],
+    supplementalPath: '/game/pokemon-evolving-skies/umbreon-vmax-215',
   },
   'Mario Pikachu Full Art': {
     fallbackOnly: true,
-    fallbackReason: 'No exact Mario Pikachu promo record is available from the current free public source.',
+    fallbackReason: 'No exact Mario Pikachu promo record is available from the current public-card catalog.',
+    supplementalPath: '/game/pokemon-japanese-promo/mario-pikachu-294xy-p',
   },
   'Shining Charizard 1st Edition': {
     exactId: 'neo4-107',
     preserveSeedIdentity: true,
-    queries: [
-      'name:"Shining Charizard" set.name:"Neo Destiny"',
-      'id:neo4-107',
-    ],
+    queries: ['name:"Shining Charizard" set.name:"Neo Destiny"', 'id:neo4-107'],
+    supplementalPath: '/game/pokemon-neo-destiny/shining-charizard-1st-edition-107',
   },
 }
 
 function parseJsonMaybe(value, fallback = null) {
   if (!value) return fallback
   if (typeof value === 'object') return value
-  try {
-    return JSON.parse(value)
-  } catch {
-    return fallback
-  }
+  try { return JSON.parse(value) } catch { return fallback }
 }
 
 function normalizeName(value) {
-  return String(value || '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim()
+  return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
+}
+
+function parseMoney(value) {
+  if (typeof value !== 'string') return null
+  const numeric = Number(value.replace(/[^0-9.]/g, ''))
+  return Number.isFinite(numeric) && numeric > 0 ? Math.round(numeric) : null
+}
+
+function sanitizeHistory(history = []) {
+  return history.map(({ month, date, psa8, psa9, psa10 }) => ({ month, date, psa8, psa9, psa10 }))
+}
+
+function publicImagesFor(seedCard) {
+  return publicImageOverrides[seedCard.name] || seedCard.imageUrls
+}
+
+function sanitizePublicRecord(card) {
+  return {
+    cardId: card.cardId,
+    name: card.name,
+    set: card.set,
+    releaseYear: card.releaseYear,
+    artist: card.artist,
+    rank: card.rank,
+    rarity: card.rarity,
+    imageUrls: publicImagesFor(card),
+    currentPrices: card.currentPrices,
+    history: sanitizeHistory(card.history),
+  }
 }
 
 function pickVariantPrice(tcgplayer) {
   const prices = tcgplayer?.prices || {}
-  const preferredKeys = [
-    '1stEditionHolofoil',
-    '1stEdition',
-    'holofoil',
-    'reverseHolofoil',
-    'normal',
-  ]
-
+  const preferredKeys = ['1stEditionHolofoil', '1stEdition', 'holofoil', 'reverseHolofoil', 'normal']
   for (const key of preferredKeys) {
     const variant = prices[key]
     if (!variant) continue
     const value = variant.market ?? variant.mid ?? variant.low ?? variant.high ?? variant.directLow ?? null
-    if (typeof value === 'number' && Number.isFinite(value) && value > 0) {
-      return { variant: key, value }
-    }
+    if (typeof value === 'number' && Number.isFinite(value) && value > 0) return value
   }
-
   for (const variant of Object.values(prices)) {
     const value = variant?.market ?? variant?.mid ?? variant?.low ?? variant?.high ?? variant?.directLow ?? null
-    if (typeof value === 'number' && Number.isFinite(value) && value > 0) {
-      return { variant: 'fallback', value }
-    }
+    if (typeof value === 'number' && Number.isFinite(value) && value > 0) return value
   }
-
-  return { variant: 'none', value: null }
+  return null
 }
 
 function releaseYearFromSet(setData, fallbackYear) {
@@ -138,24 +166,12 @@ function directionFromDelta(delta) {
   return delta >= 0 ? 'up' : 'down'
 }
 
-function cloneWithSourceLabel(history, label) {
-  return history.map((point) => ({
-    ...point,
-    sources: {
-      psa8: label,
-      psa9: label,
-      psa10: label,
-    },
-  }))
-}
-
 function buildModeledHistory(currentPrices, seedKey) {
   const random = pseudoRandom(seedFromString(seedKey))
-  const grades = ['psa8', 'psa9', 'psa10']
   const now = new Date()
   const series = {}
 
-  for (const grade of grades) {
+  for (const grade of GRADES) {
     const current = currentPrices[grade].value
     const start = current * (0.72 + random() * 0.12)
     const monthly = []
@@ -178,11 +194,6 @@ function buildModeledHistory(currentPrices, seedKey) {
       psa8: series.psa8[index],
       psa9: series.psa9[index],
       psa10: series.psa10[index],
-      sources: {
-        psa8: SOURCE_LABEL,
-        psa9: SOURCE_LABEL,
-        psa10: SOURCE_LABEL,
-      },
     }
   })
 }
@@ -192,9 +203,7 @@ function scoreCandidate(seedCard, item) {
   const itemName = normalizeName(item.name)
   let score = 0
   if (itemName.includes(seedName) || seedName.includes(itemName)) score += 4
-  for (const token of seedName.split(' ')) {
-    if (token && itemName.includes(token)) score += 1
-  }
+  for (const token of seedName.split(' ')) if (token && itemName.includes(token)) score += 1
   const setData = parseJsonMaybe(item.set, {})
   const setName = normalizeName(setData?.name)
   const seedSet = normalizeName(seedCard.set)
@@ -212,51 +221,107 @@ async function runActorSearch(client, query) {
     includePrices: true,
     maxItems: 5,
   }
-
   const run = await client.actor(APIFY_ACTOR_ID).call(input)
   const { items } = await client.dataset(run.defaultDatasetId).listItems({ limit: 5 })
   return items
 }
 
-function fallbackRecord(seedCard, reason) {
+async function fetchSupplementalPrices(rule) {
+  if (!rule?.supplementalPath) return null
+  const url = `https://www.pricecharting.com${rule.supplementalPath}`
+  try {
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; dashboard-refresh/1.0)',
+        Accept: 'text/html,application/xhtml+xml',
+      },
+    })
+    if (!response.ok) return null
+    const html = await response.text()
+    const normalized = html.replace(/\s+/g, ' ')
+    const psa8 = parseMoney(normalized.match(/Grade 8<[^>]*>\s*<[^>]*>(\$[0-9,.]+)/i)?.[1]
+      || normalized.match(/>Grade 8<.*?(\$[0-9,.]+)/i)?.[1])
+    const psa9 = parseMoney(normalized.match(/Grade 9<[^>]*>\s*<[^>]*>(\$[0-9,.]+)/i)?.[1]
+      || normalized.match(/>Grade 9<.*?(\$[0-9,.]+)/i)?.[1])
+    const psa10 = parseMoney(normalized.match(/PSA 10<[^>]*>\s*<[^>]*>(\$[0-9,.]+)/i)?.[1]
+      || normalized.match(/>PSA 10<.*?(\$[0-9,.]+)/i)?.[1])
+    const values = { psa8, psa9, psa10 }
+    const validCount = Object.values(values).filter((value) => typeof value === 'number' && value > 0).length
+    if (validCount > 0) return values
+  } catch (error) {
+    console.warn(`  supplemental price lookup skipped: ${error.message}`)
+  }
+  return null
+}
+
+function pricesFromGradeValues(values, priorPrices = null) {
+  const currentPrices = {}
+  for (const grade of GRADES) {
+    const current = Math.round(values[grade])
+    const previous = priorPrices?.[grade]?.value ?? current
+    const delta = percentDelta(current, previous)
+    currentPrices[grade] = {
+      value: current,
+      trend30d: delta,
+      direction: directionFromDelta(delta),
+    }
+  }
+  return currentPrices
+}
+
+function mergeFreshPrices(basePrices, supplemental) {
+  if (!supplemental) return basePrices
+  const merged = {}
+  let priorFreshValue = 0
+  for (const grade of GRADES) {
+    const base = basePrices[grade]
+    const freshValue = supplemental[grade]
+    const freshIsUsable = typeof freshValue === 'number'
+      && Number.isFinite(freshValue)
+      && freshValue > 0
+      && freshValue >= priorFreshValue
+      && freshValue >= base.value * 0.35
+
+    if (freshIsUsable) {
+      const delta = percentDelta(freshValue, base.value)
+      merged[grade] = {
+        value: Math.round(freshValue),
+        trend30d: delta,
+        direction: directionFromDelta(delta),
+      }
+      priorFreshValue = freshValue
+    } else {
+      merged[grade] = base
+      priorFreshValue = Math.max(priorFreshValue, base.value)
+    }
+  }
+  return merged
+}
+
+function fallbackRecord(seedCard, reason, supplemental) {
+  const cleanSeed = sanitizePublicRecord(seedCard)
+  const currentPrices = mergeFreshPrices(cleanSeed.currentPrices, supplemental)
   return {
-    ...seedCard,
-    history: cloneWithSourceLabel(seedCard.history, 'Modeled'),
-    liveSource: {
-      actor: APIFY_ACTOR_ID,
-      source: 'Modeled',
-      variant: 'seed-fallback',
-      rawMarketPrice: null,
-      tcgplayerUrl: null,
-      updatedAt: null,
-      fallbackReason: reason,
-    },
+    ...cleanSeed,
+    currentPrices,
+    history: buildModeledHistory(currentPrices, `${seedCard.cardId}:${reason}`),
   }
 }
 
 async function fetchBestMatch(client, seedCard) {
   const rule = cardRules[seedCard.name] || {}
-  if (rule.fallbackOnly) {
-    return { kind: 'fallback', reason: rule.fallbackReason }
-  }
-
-  const queries = rule.queries || [
-    `name:"${seedCard.name.replace(/"/g, '')}"`,
-    `name:"${seedCard.name.split(' ')[0]}"`,
-  ]
-
+  if (rule.fallbackOnly) return { kind: 'fallback', reason: rule.fallbackReason, rule }
+  const queries = rule.queries || [`name:"${seedCard.name.replace(/"/g, '')}"`, `name:"${seedCard.name.split(' ')[0]}"`]
   let bestItem = null
   let bestScore = -Infinity
 
   for (const query of queries) {
     console.log(`  query -> ${query}`)
     const items = await runActorSearch(client, query)
-
     if (rule.exactId) {
       const exact = items.find((item) => item.id === rule.exactId)
       if (exact) return { kind: 'live', item: exact, rule }
     }
-
     for (const item of items) {
       const score = scoreCandidate(seedCard, item)
       if (score > bestScore) {
@@ -266,50 +331,28 @@ async function fetchBestMatch(client, seedCard) {
     }
   }
 
-  if (rule.exactId) {
-    return {
-      kind: 'fallback',
-      reason: `Exact public-source match ${rule.exactId} was not returned for ${seedCard.name}.`,
-    }
-  }
-
-  if (!bestItem || bestScore < 6) {
-    return {
-      kind: 'fallback',
-      reason: `No strong public-source match met the quality threshold for ${seedCard.name}.`,
-    }
-  }
-
+  if (rule.exactId) return { kind: 'fallback', reason: `Exact catalog match ${rule.exactId} was not returned for ${seedCard.name}.`, rule }
+  if (!bestItem || bestScore < 6) return { kind: 'fallback', reason: `No strong catalog match met the quality threshold for ${seedCard.name}.`, rule }
   return { kind: 'live', item: bestItem, rule }
 }
 
-function mapLiveCard(seedCard, liveItem, rule = {}) {
+function mapLiveCard(seedCard, liveItem, rule = {}, supplemental) {
   const setData = parseJsonMaybe(liveItem.set, {}) || {}
-  const images = parseJsonMaybe(liveItem.images, {}) || {}
   const tcgplayer = parseJsonMaybe(liveItem.tcgplayer, {}) || {}
-  const market = pickVariantPrice(tcgplayer)
+  const marketValue = pickVariantPrice(tcgplayer)
   const releaseYear = releaseYearFromSet(setData, seedCard.releaseYear)
   const multipliers = chooseMultipliers(releaseYear)
-  const baseValue = market.value || seedCard.currentPrices.psa8.value
-
-  const currentPrices = {
-    psa8: { value: Math.round(baseValue * multipliers.psa8), trend30d: 0, direction: 'up' },
-    psa9: { value: Math.round(baseValue * multipliers.psa9), trend30d: 0, direction: 'up' },
-    psa10: { value: Math.round(baseValue * multipliers.psa10), trend30d: 0, direction: 'up' },
-  }
-
+  const baseValue = marketValue || seedCard.currentPrices.psa8.value
+  const catalogPrices = pricesFromGradeValues({
+    psa8: Math.round(baseValue * multipliers.psa8),
+    psa9: Math.round(baseValue * multipliers.psa9),
+    psa10: Math.round(baseValue * multipliers.psa10),
+  }, seedCard.currentPrices)
+  const currentPrices = mergeFreshPrices(catalogPrices, supplemental)
   const history = buildModeledHistory(currentPrices, `${seedCard.cardId}:${liveItem.id || liveItem.name}`)
-  const previous = history[10]
-  const latest = history[11]
-  for (const grade of ['psa8', 'psa9', 'psa10']) {
-    const delta = percentDelta(latest[grade], previous[grade])
-    currentPrices[grade].trend30d = delta
-    currentPrices[grade].direction = directionFromDelta(delta)
-  }
-
   const preserveSeedIdentity = Boolean(rule.preserveSeedIdentity)
 
-  return {
+  return sanitizePublicRecord({
     ...seedCard,
     cardId: preserveSeedIdentity ? seedCard.cardId : (liveItem.id || seedCard.cardId),
     name: preserveSeedIdentity ? seedCard.name : (liveItem.name || seedCard.name),
@@ -317,26 +360,10 @@ function mapLiveCard(seedCard, liveItem, rule = {}) {
     releaseYear: preserveSeedIdentity ? seedCard.releaseYear : releaseYear,
     artist: preserveSeedIdentity ? seedCard.artist : (liveItem.artist || seedCard.artist),
     rarity: preserveSeedIdentity ? seedCard.rarity : (liveItem.rarity || seedCard.rarity),
-    imageUrls: preserveSeedIdentity
-      ? seedCard.imageUrls
-      : {
-          small: images.small || seedCard.imageUrls.small,
-          large: images.large || seedCard.imageUrls.large,
-        },
+    imageUrls: publicImagesFor(seedCard),
     currentPrices,
     history,
-    liveSource: {
-      actor: APIFY_ACTOR_ID,
-      source: SOURCE_LABEL,
-      variant: market.variant,
-      rawMarketPrice: market.value,
-      tcgplayerUrl: tcgplayer?.url || null,
-      updatedAt: tcgplayer?.updatedAt || null,
-      matchedCardId: liveItem.id || null,
-      matchedCardName: liveItem.name || null,
-      matchedSetName: setData?.name || null,
-    },
-  }
+  })
 }
 
 async function main() {
@@ -346,20 +373,23 @@ async function main() {
   const seedCards = JSON.parse(await fs.readFile(seedPath, 'utf8'))
   const results = []
 
-  for (const seedCard of seedCards) {
+  for (const rawSeedCard of seedCards) {
+    const seedCard = sanitizePublicRecord(rawSeedCard)
     console.log(`Processing ${seedCard.name}`)
     const match = await fetchBestMatch(client, seedCard)
+    const supplemental = await fetchSupplementalPrices(match.rule || cardRules[seedCard.name])
+    if (supplemental) console.log('  supplemental pricing merged')
     if (match.kind === 'fallback') {
       console.log(`  fallback -> ${match.reason}`)
-      results.push(fallbackRecord(seedCard, match.reason))
+      results.push(fallbackRecord(seedCard, match.reason, supplemental))
       continue
     }
-    results.push(mapLiveCard(seedCard, match.item, match.rule))
+    results.push(mapLiveCard(seedCard, match.item, match.rule, supplemental))
   }
 
   await fs.mkdir(path.dirname(outputPath), { recursive: true })
   await fs.writeFile(outputPath, `${JSON.stringify(results, null, 2)}\n`, 'utf8')
-  console.log(`Wrote ${results.length} cards to ${outputPath}`)
+  console.log(`Wrote ${results.length} source-free cards to ${outputPath}`)
 }
 
 main().catch((error) => {

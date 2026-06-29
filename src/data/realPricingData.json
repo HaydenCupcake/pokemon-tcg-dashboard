@@ -8,19 +8,19 @@
     "rank": 1,
     "rarity": "Japanese Promo Trophy Card",
     "imageUrls": {
-      "small": "https://images.pokemontcg.io/swshp/SWSH020.png",
-      "large": "https://images.pokemontcg.io/swshp/SWSH020_hires.png"
+      "small": "/pokemon-tcg-dashboard/card-images/illustrator-pikachu.svg",
+      "large": "/pokemon-tcg-dashboard/card-images/illustrator-pikachu.svg"
     },
     "currentPrices": {
       "psa8": {
-        "value": 485000,
-        "trend30d": 4.8,
+        "value": 500000,
+        "trend30d": 3.1,
         "direction": "up"
       },
       "psa9": {
-        "value": 925000,
-        "trend30d": 6.1,
-        "direction": "up"
+        "value": 541387,
+        "trend30d": -41.5,
+        "direction": "down"
       },
       "psa10": {
         "value": 5850000,
@@ -32,157 +32,88 @@
       {
         "month": "Jul",
         "date": "2025-07-15",
-        "psa8": 421000,
-        "psa9": 801000,
-        "psa10": 5125000,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 396839,
+        "psa9": 410928,
+        "psa10": 4235114
       },
       {
         "month": "Aug",
         "date": "2025-08-15",
-        "psa8": 429500,
-        "psa9": 816000,
-        "psa10": 5200000,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 406451,
+        "psa9": 422837,
+        "psa10": 4384007
       },
       {
         "month": "Sep",
         "date": "2025-09-15",
-        "psa8": 438000,
-        "psa9": 842000,
-        "psa10": 5295000,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 415868,
+        "psa9": 435829,
+        "psa10": 4540428
       },
       {
         "month": "Oct",
         "date": "2025-10-15",
-        "psa8": 442000,
-        "psa9": 855000,
-        "psa10": 5380000,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 426155,
+        "psa9": 449091,
+        "psa10": 4695831
       },
       {
         "month": "Nov",
         "date": "2025-11-15",
-        "psa8": 451000,
-        "psa9": 871000,
-        "psa10": 5440000,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 436259,
+        "psa9": 461882,
+        "psa10": 4842665
       },
       {
         "month": "Dec",
         "date": "2025-12-15",
-        "psa8": 457500,
-        "psa9": 882000,
-        "psa10": 5525000,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 445626,
+        "psa9": 473256,
+        "psa10": 5014030
       },
       {
         "month": "Jan",
         "date": "2026-01-15",
-        "psa8": 463000,
-        "psa9": 894000,
-        "psa10": 5580000,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 454519,
+        "psa9": 482252,
+        "psa10": 5121318
       },
       {
         "month": "Feb",
         "date": "2026-02-15",
-        "psa8": 468500,
-        "psa9": 905000,
-        "psa10": 5630000,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 460988,
+        "psa9": 495628,
+        "psa10": 5270339
       },
       {
         "month": "Mar",
         "date": "2026-03-15",
-        "psa8": 472000,
-        "psa9": 912000,
-        "psa10": 5680000,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 471173,
+        "psa9": 503500,
+        "psa10": 5391584
       },
       {
         "month": "Apr",
         "date": "2026-04-15",
-        "psa8": 476500,
-        "psa9": 918000,
-        "psa10": 5730000,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 476595,
+        "psa9": 512854,
+        "psa10": 5479417
       },
       {
         "month": "May",
         "date": "2026-05-15",
-        "psa8": 479000,
-        "psa9": 923000,
-        "psa10": 5790000,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 486390,
+        "psa9": 524394,
+        "psa10": 5665123
       },
       {
         "month": "Jun",
         "date": "2026-06-15",
-        "psa8": 485000,
-        "psa9": 925000,
-        "psa10": 5850000,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 500000,
+        "psa9": 541387,
+        "psa10": 5850000
       }
-    ],
-    "liveSource": {
-      "actor": "jungle_synthesizer/pokemontcg-io-cards-api-wrapper",
-      "source": "Modeled",
-      "variant": "seed-fallback",
-      "rawMarketPrice": null,
-      "tcgplayerUrl": null,
-      "updatedAt": null,
-      "fallbackReason": "No exact Illustrator Pikachu record is available from the current free public source."
-    }
+    ]
   },
   {
     "cardId": "base1-4-first-edition-charizard",
@@ -193,23 +124,23 @@
     "rank": 2,
     "rarity": "Holo Rare",
     "imageUrls": {
-      "small": "https://images.pokemontcg.io/base1/4.png",
-      "large": "https://images.pokemontcg.io/base1/4_hires.png"
+      "small": "/pokemon-tcg-dashboard/card-images/charizard-first-edition.svg",
+      "large": "/pokemon-tcg-dashboard/card-images/charizard-first-edition.svg"
     },
     "currentPrices": {
       "psa8": {
-        "value": 1584,
-        "trend30d": 2.3,
+        "value": 29784,
+        "trend30d": 1780.3,
         "direction": "up"
       },
       "psa9": {
-        "value": 2903,
-        "trend30d": 3,
+        "value": 51454,
+        "trend30d": 1672.4,
         "direction": "up"
       },
       "psa10": {
-        "value": 5410,
-        "trend30d": 4.1,
+        "value": 362900,
+        "trend30d": 6607.9,
         "direction": "up"
       }
     },
@@ -217,159 +148,88 @@
       {
         "month": "Jul",
         "date": "2025-07-15",
-        "psa8": 1242,
-        "psa9": 2362,
-        "psa10": 4019,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 23349,
+        "psa9": 41859,
+        "psa10": 269613
       },
       {
         "month": "Aug",
         "date": "2025-08-15",
-        "psa8": 1274,
-        "psa9": 2412,
-        "psa10": 4152,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 23961,
+        "psa9": 42747,
+        "psa10": 278497
       },
       {
         "month": "Sep",
         "date": "2025-09-15",
-        "psa8": 1305,
-        "psa9": 2464,
-        "psa10": 4285,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 24533,
+        "psa9": 43671,
+        "psa10": 287442
       },
       {
         "month": "Oct",
         "date": "2025-10-15",
-        "psa8": 1338,
-        "psa9": 2520,
-        "psa10": 4419,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 25151,
+        "psa9": 44661,
+        "psa10": 296410
       },
       {
         "month": "Nov",
         "date": "2025-11-15",
-        "psa8": 1371,
-        "psa9": 2567,
-        "psa10": 4561,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 25776,
+        "psa9": 45502,
+        "psa10": 305942
       },
       {
         "month": "Dec",
         "date": "2025-12-15",
-        "psa8": 1406,
-        "psa9": 2621,
-        "psa10": 4690,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 26429,
+        "psa9": 46454,
+        "psa10": 314622
       },
       {
         "month": "Jan",
         "date": "2026-01-15",
-        "psa8": 1438,
-        "psa9": 2663,
-        "psa10": 4805,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 27036,
+        "psa9": 47200,
+        "psa10": 322294
       },
       {
         "month": "Feb",
         "date": "2026-02-15",
-        "psa8": 1461,
-        "psa9": 2698,
-        "psa10": 4912,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 27467,
+        "psa9": 47826,
+        "psa10": 329519
       },
       {
         "month": "Mar",
         "date": "2026-03-15",
-        "psa8": 1490,
-        "psa9": 2752,
-        "psa10": 5026,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 28023,
+        "psa9": 48775,
+        "psa10": 337163
       },
       {
         "month": "Apr",
         "date": "2026-04-15",
-        "psa8": 1507,
-        "psa9": 2789,
-        "psa10": 5135,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 28345,
+        "psa9": 49438,
+        "psa10": 344473
       },
       {
         "month": "May",
         "date": "2026-05-15",
-        "psa8": 1548,
-        "psa9": 2818,
-        "psa10": 5195,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 29100,
+        "psa9": 49951,
+        "psa10": 348509
       },
       {
         "month": "Jun",
         "date": "2026-06-15",
-        "psa8": 1584,
-        "psa9": 2903,
-        "psa10": 5410,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 29784,
+        "psa9": 51454,
+        "psa10": 362900
       }
-    ],
-    "liveSource": {
-      "actor": "jungle_synthesizer/pokemontcg-io-cards-api-wrapper",
-      "source": "TCGPlayer",
-      "variant": "holofoil",
-      "rawMarketPrice": 659.81,
-      "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/base1-4",
-      "updatedAt": "2026/06/29",
-      "matchedCardId": "base1-4",
-      "matchedCardName": "Charizard",
-      "matchedSetName": "Base"
-    }
+    ]
   },
   {
     "cardId": "swsh7-215-umbreon-vmax-alt-art",
@@ -380,183 +240,112 @@
     "rank": 3,
     "rarity": "Secret Rare Alternate Art",
     "imageUrls": {
-      "small": "https://images.pokemontcg.io/swsh7/215.png",
-      "large": "https://images.pokemontcg.io/swsh7/215_hires.png"
+      "small": "/pokemon-tcg-dashboard/card-images/umbreon-vmax-moonbreon.svg",
+      "large": "/pokemon-tcg-dashboard/card-images/umbreon-vmax-moonbreon.svg"
     },
     "currentPrices": {
       "psa8": {
-        "value": 2653,
-        "trend30d": 2.9,
-        "direction": "up"
+        "value": 1988,
+        "trend30d": -25.1,
+        "direction": "down"
       },
       "psa9": {
-        "value": 3758,
-        "trend30d": 2.9,
-        "direction": "up"
+        "value": 2316,
+        "trend30d": -38.4,
+        "direction": "down"
       },
       "psa10": {
-        "value": 5526,
-        "trend30d": 3.9,
-        "direction": "up"
+        "value": 4500,
+        "trend30d": -18.6,
+        "direction": "down"
       }
     },
     "history": [
       {
         "month": "Jul",
         "date": "2025-07-15",
-        "psa8": 2151,
-        "psa9": 2920,
-        "psa10": 3985,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 1612,
+        "psa9": 1800,
+        "psa10": 3245
       },
       {
         "month": "Aug",
         "date": "2025-08-15",
-        "psa8": 2198,
-        "psa9": 2999,
-        "psa10": 4125,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 1647,
+        "psa9": 1849,
+        "psa10": 3359
       },
       {
         "month": "Sep",
         "date": "2025-09-15",
-        "psa8": 2243,
-        "psa9": 3075,
-        "psa10": 4276,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 1681,
+        "psa9": 1895,
+        "psa10": 3482
       },
       {
         "month": "Oct",
         "date": "2025-10-15",
-        "psa8": 2292,
-        "psa9": 3165,
-        "psa10": 4431,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 1718,
+        "psa9": 1951,
+        "psa10": 3608
       },
       {
         "month": "Nov",
         "date": "2025-11-15",
-        "psa8": 2343,
-        "psa9": 3245,
-        "psa10": 4585,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 1756,
+        "psa9": 2000,
+        "psa10": 3734
       },
       {
         "month": "Dec",
         "date": "2025-12-15",
-        "psa8": 2387,
-        "psa9": 3306,
-        "psa10": 4730,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 1788,
+        "psa9": 2038,
+        "psa10": 3852
       },
       {
         "month": "Jan",
         "date": "2026-01-15",
-        "psa8": 2438,
-        "psa9": 3384,
-        "psa10": 4828,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 1827,
+        "psa9": 2086,
+        "psa10": 3932
       },
       {
         "month": "Feb",
         "date": "2026-02-15",
-        "psa8": 2479,
-        "psa9": 3471,
-        "psa10": 4989,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 1858,
+        "psa9": 2139,
+        "psa10": 4063
       },
       {
         "month": "Mar",
         "date": "2026-03-15",
-        "psa8": 2503,
-        "psa9": 3524,
-        "psa10": 5070,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 1875,
+        "psa9": 2172,
+        "psa10": 4129
       },
       {
         "month": "Apr",
         "date": "2026-04-15",
-        "psa8": 2557,
-        "psa9": 3594,
-        "psa10": 5178,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 1916,
+        "psa9": 2215,
+        "psa10": 4216
       },
       {
         "month": "May",
         "date": "2026-05-15",
-        "psa8": 2578,
-        "psa9": 3652,
-        "psa10": 5318,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 1931,
+        "psa9": 2251,
+        "psa10": 4330
       },
       {
         "month": "Jun",
         "date": "2026-06-15",
-        "psa8": 2653,
-        "psa9": 3758,
-        "psa10": 5526,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 1988,
+        "psa9": 2316,
+        "psa10": 4500
       }
-    ],
-    "liveSource": {
-      "actor": "jungle_synthesizer/pokemontcg-io-cards-api-wrapper",
-      "source": "TCGPlayer",
-      "variant": "holofoil",
-      "rawMarketPrice": 2210.46,
-      "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/swsh7-215",
-      "updatedAt": "2026/06/29",
-      "matchedCardId": "swsh7-215",
-      "matchedCardName": "Umbreon VMAX",
-      "matchedSetName": "Evolving Skies"
-    }
+    ]
   },
   {
     "cardId": "xy-p-mario-pikachu-294",
@@ -567,23 +356,23 @@
     "rank": 4,
     "rarity": "Japanese XY-P Promo",
     "imageUrls": {
-      "small": "https://images.pokemontcg.io/smp/SM86.png",
-      "large": "https://images.pokemontcg.io/smp/SM86_hires.png"
+      "small": "/pokemon-tcg-dashboard/card-images/mario-pikachu-full-art.svg",
+      "large": "/pokemon-tcg-dashboard/card-images/mario-pikachu-full-art.svg"
     },
     "currentPrices": {
       "psa8": {
-        "value": 3600,
-        "trend30d": -1.8,
-        "direction": "down"
+        "value": 10100,
+        "trend30d": 180.6,
+        "direction": "up"
       },
       "psa9": {
-        "value": 8200,
-        "trend30d": 2.6,
+        "value": 13350,
+        "trend30d": 62.8,
         "direction": "up"
       },
       "psa10": {
-        "value": 27500,
-        "trend30d": 5.9,
+        "value": 30118,
+        "trend30d": 9.5,
         "direction": "up"
       }
     },
@@ -591,157 +380,88 @@
       {
         "month": "Jul",
         "date": "2025-07-15",
-        "psa8": 3250,
-        "psa9": 7200,
-        "psa10": 21900,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 7526,
+        "psa9": 10158,
+        "psa10": 22172
       },
       {
         "month": "Aug",
         "date": "2025-08-15",
-        "psa8": 3375,
-        "psa9": 7350,
-        "psa10": 22650,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 7761,
+        "psa9": 10452,
+        "psa10": 22918
       },
       {
         "month": "Sep",
         "date": "2025-09-15",
-        "psa8": 3500,
-        "psa9": 7525,
-        "psa10": 23500,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 7998,
+        "psa9": 10762,
+        "psa10": 23665
       },
       {
         "month": "Oct",
         "date": "2025-10-15",
-        "psa8": 3620,
-        "psa9": 7650,
-        "psa10": 24200,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 8282,
+        "psa9": 11049,
+        "psa10": 24449
       },
       {
         "month": "Nov",
         "date": "2025-11-15",
-        "psa8": 3710,
-        "psa9": 7790,
-        "psa10": 24800,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 8502,
+        "psa9": 11380,
+        "psa10": 25173
       },
       {
         "month": "Dec",
         "date": "2025-12-15",
-        "psa8": 3680,
-        "psa9": 7900,
-        "psa10": 25350,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 8764,
+        "psa9": 11697,
+        "psa10": 25939
       },
       {
         "month": "Jan",
         "date": "2026-01-15",
-        "psa8": 3725,
-        "psa9": 8025,
-        "psa10": 26000,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 8989,
+        "psa9": 11958,
+        "psa10": 26722
       },
       {
         "month": "Feb",
         "date": "2026-02-15",
-        "psa8": 3690,
-        "psa9": 8090,
-        "psa10": 26350,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 9206,
+        "psa9": 12213,
+        "psa10": 27228
       },
       {
         "month": "Mar",
         "date": "2026-03-15",
-        "psa8": 3650,
-        "psa9": 8150,
-        "psa10": 26800,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 9409,
+        "psa9": 12422,
+        "psa10": 27729
       },
       {
         "month": "Apr",
         "date": "2026-04-15",
-        "psa8": 3610,
-        "psa9": 8180,
-        "psa10": 27100,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 9608,
+        "psa9": 12701,
+        "psa10": 28484
       },
       {
         "month": "May",
         "date": "2026-05-15",
-        "psa8": 3580,
-        "psa9": 8210,
-        "psa10": 27350,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 9715,
+        "psa9": 12939,
+        "psa10": 28956
       },
       {
         "month": "Jun",
         "date": "2026-06-15",
-        "psa8": 3600,
-        "psa9": 8200,
-        "psa10": 27500,
-        "sources": {
-          "psa8": "Modeled",
-          "psa9": "Modeled",
-          "psa10": "Modeled"
-        }
+        "psa8": 10100,
+        "psa9": 13350,
+        "psa10": 30118
       }
-    ],
-    "liveSource": {
-      "actor": "jungle_synthesizer/pokemontcg-io-cards-api-wrapper",
-      "source": "Modeled",
-      "variant": "seed-fallback",
-      "rawMarketPrice": null,
-      "tcgplayerUrl": null,
-      "updatedAt": null,
-      "fallbackReason": "No exact Mario Pikachu promo record is available from the current free public source."
-    }
+    ]
   },
   {
     "cardId": "neo4-17-shining-charizard",
@@ -752,23 +472,23 @@
     "rank": 5,
     "rarity": "Shining Holo Rare",
     "imageUrls": {
-      "small": "https://images.pokemontcg.io/neo4/107.png",
-      "large": "https://images.pokemontcg.io/neo4/107_hires.png"
+      "small": "/pokemon-tcg-dashboard/card-images/shining-charizard-first-edition.svg",
+      "large": "/pokemon-tcg-dashboard/card-images/shining-charizard-first-edition.svg"
     },
     "currentPrices": {
       "psa8": {
-        "value": 13649,
-        "trend30d": 3.3,
-        "direction": "up"
+        "value": 8794,
+        "trend30d": -35.6,
+        "direction": "down"
       },
       "psa9": {
-        "value": 22749,
-        "trend30d": 3.8,
-        "direction": "up"
+        "value": 12100,
+        "trend30d": -46.8,
+        "direction": "down"
       },
       "psa10": {
-        "value": 41707,
-        "trend30d": 3.7,
+        "value": 55000,
+        "trend30d": 31.9,
         "direction": "up"
       }
     },
@@ -776,158 +496,87 @@
       {
         "month": "Jul",
         "date": "2025-07-15",
-        "psa8": 10896,
-        "psa9": 17023,
-        "psa10": 32263,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 7020,
+        "psa9": 9054,
+        "psa10": 42546
       },
       {
         "month": "Aug",
         "date": "2025-08-15",
-        "psa8": 11155,
-        "psa9": 17543,
-        "psa10": 33133,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 7187,
+        "psa9": 9331,
+        "psa10": 43693
       },
       {
         "month": "Sep",
         "date": "2025-09-15",
-        "psa8": 11425,
-        "psa9": 18104,
-        "psa10": 34020,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 7361,
+        "psa9": 9629,
+        "psa10": 44862
       },
       {
         "month": "Oct",
         "date": "2025-10-15",
-        "psa8": 11663,
-        "psa9": 18633,
-        "psa10": 35008,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 7514,
+        "psa9": 9911,
+        "psa10": 46165
       },
       {
         "month": "Nov",
         "date": "2025-11-15",
-        "psa8": 11975,
-        "psa9": 19152,
-        "psa10": 35833,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 7715,
+        "psa9": 10187,
+        "psa10": 47253
       },
       {
         "month": "Dec",
         "date": "2025-12-15",
-        "psa8": 12191,
-        "psa9": 19763,
-        "psa10": 36719,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 7854,
+        "psa9": 10512,
+        "psa10": 48422
       },
       {
         "month": "Jan",
         "date": "2026-01-15",
-        "psa8": 12432,
-        "psa9": 20184,
-        "psa10": 37686,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 8010,
+        "psa9": 10736,
+        "psa10": 49698
       },
       {
         "month": "Feb",
         "date": "2026-02-15",
-        "psa8": 12691,
-        "psa9": 20751,
-        "psa10": 38332,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 8177,
+        "psa9": 11038,
+        "psa10": 50549
       },
       {
         "month": "Mar",
         "date": "2026-03-15",
-        "psa8": 12853,
-        "psa9": 21220,
-        "psa10": 39081,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 8281,
+        "psa9": 11287,
+        "psa10": 51537
       },
       {
         "month": "Apr",
         "date": "2026-04-15",
-        "psa8": 13012,
-        "psa9": 21498,
-        "psa10": 39862,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 8383,
+        "psa9": 11435,
+        "psa10": 52567
       },
       {
         "month": "May",
         "date": "2026-05-15",
-        "psa8": 13212,
-        "psa9": 21913,
-        "psa10": 40233,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 8512,
+        "psa9": 11655,
+        "psa10": 53056
       },
       {
         "month": "Jun",
         "date": "2026-06-15",
-        "psa8": 13649,
-        "psa9": 22749,
-        "psa10": 41707,
-        "sources": {
-          "psa8": "TCGPlayer",
-          "psa9": "TCGPlayer",
-          "psa10": "TCGPlayer"
-        }
+        "psa8": 8794,
+        "psa9": 12100,
+        "psa10": 55000
       }
-    ],
-    "liveSource": {
-      "actor": "jungle_synthesizer/pokemontcg-io-cards-api-wrapper",
-      "source": "TCGPlayer",
-      "variant": "1stEditionHolofoil",
-      "rawMarketPrice": 7583,
-      "tcgplayerUrl": "https://prices.pokemontcg.io/tcgplayer/neo4-107",
-      "updatedAt": "2026/06/29",
-      "matchedCardId": "neo4-107",
-      "matchedCardName": "Shining Charizard",
-      "matchedSetName": "Neo Destiny"
-    }
+    ]
   }
 ]

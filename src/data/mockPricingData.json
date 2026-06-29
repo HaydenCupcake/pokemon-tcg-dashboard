@@ -8,27 +8,111 @@
     "rank": 1,
     "rarity": "Japanese Promo Trophy Card",
     "imageUrls": {
-      "small": "https://images.pokemontcg.io/swshp/SWSH020.png",
-      "large": "https://images.pokemontcg.io/swshp/SWSH020_hires.png"
+      "small": "/pokemon-tcg-dashboard/card-images/illustrator-pikachu.svg",
+      "large": "/pokemon-tcg-dashboard/card-images/illustrator-pikachu.svg"
     },
     "currentPrices": {
-      "psa8": { "value": 485000, "trend30d": 4.8, "direction": "up" },
-      "psa9": { "value": 925000, "trend30d": 6.1, "direction": "up" },
-      "psa10": { "value": 5850000, "trend30d": 2.4, "direction": "up" }
+      "psa8": {
+        "value": 485000,
+        "trend30d": 4.8,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 925000,
+        "trend30d": 6.1,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 5850000,
+        "trend30d": 2.4,
+        "direction": "up"
+      }
     },
     "history": [
-      { "month": "Jul", "date": "2025-07-15", "psa8": 421000, "psa9": 801000, "psa10": 5125000, "sources": { "psa8": "eBay", "psa9": "Goldin", "psa10": "Fanatics Collect" } },
-      { "month": "Aug", "date": "2025-08-15", "psa8": 429500, "psa9": 816000, "psa10": 5200000, "sources": { "psa8": "Goldin", "psa9": "Fanatics Collect", "psa10": "Goldin" } },
-      { "month": "Sep", "date": "2025-09-15", "psa8": 438000, "psa9": 842000, "psa10": 5295000, "sources": { "psa8": "Fanatics Collect", "psa9": "eBay", "psa10": "Fanatics Collect" } },
-      { "month": "Oct", "date": "2025-10-15", "psa8": 442000, "psa9": 855000, "psa10": 5380000, "sources": { "psa8": "eBay", "psa9": "Goldin", "psa10": "Goldin" } },
-      { "month": "Nov", "date": "2025-11-15", "psa8": 451000, "psa9": 871000, "psa10": 5440000, "sources": { "psa8": "Goldin", "psa9": "Fanatics Collect", "psa10": "eBay" } },
-      { "month": "Dec", "date": "2025-12-15", "psa8": 457500, "psa9": 882000, "psa10": 5525000, "sources": { "psa8": "Fanatics Collect", "psa9": "Goldin", "psa10": "Fanatics Collect" } },
-      { "month": "Jan", "date": "2026-01-15", "psa8": 463000, "psa9": 894000, "psa10": 5580000, "sources": { "psa8": "eBay", "psa9": "eBay", "psa10": "Goldin" } },
-      { "month": "Feb", "date": "2026-02-15", "psa8": 468500, "psa9": 905000, "psa10": 5630000, "sources": { "psa8": "Goldin", "psa9": "Fanatics Collect", "psa10": "Fanatics Collect" } },
-      { "month": "Mar", "date": "2026-03-15", "psa8": 472000, "psa9": 912000, "psa10": 5680000, "sources": { "psa8": "Fanatics Collect", "psa9": "Goldin", "psa10": "Goldin" } },
-      { "month": "Apr", "date": "2026-04-15", "psa8": 476500, "psa9": 918000, "psa10": 5730000, "sources": { "psa8": "eBay", "psa9": "Fanatics Collect", "psa10": "eBay" } },
-      { "month": "May", "date": "2026-05-15", "psa8": 479000, "psa9": 923000, "psa10": 5790000, "sources": { "psa8": "Goldin", "psa9": "Goldin", "psa10": "Fanatics Collect" } },
-      { "month": "Jun", "date": "2026-06-15", "psa8": 485000, "psa9": 925000, "psa10": 5850000, "sources": { "psa8": "Fanatics Collect", "psa9": "eBay", "psa10": "Goldin" } }
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 421000,
+        "psa9": 801000,
+        "psa10": 5125000
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 429500,
+        "psa9": 816000,
+        "psa10": 5200000
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 438000,
+        "psa9": 842000,
+        "psa10": 5295000
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 442000,
+        "psa9": 855000,
+        "psa10": 5380000
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 451000,
+        "psa9": 871000,
+        "psa10": 5440000
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 457500,
+        "psa9": 882000,
+        "psa10": 5525000
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 463000,
+        "psa9": 894000,
+        "psa10": 5580000
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 468500,
+        "psa9": 905000,
+        "psa10": 5630000
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 472000,
+        "psa9": 912000,
+        "psa10": 5680000
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 476500,
+        "psa9": 918000,
+        "psa10": 5730000
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 479000,
+        "psa9": 923000,
+        "psa10": 5790000
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 485000,
+        "psa9": 925000,
+        "psa10": 5850000
+      }
     ]
   },
   {
@@ -40,27 +124,111 @@
     "rank": 2,
     "rarity": "Holo Rare",
     "imageUrls": {
-      "small": "https://images.pokemontcg.io/base1/4.png",
-      "large": "https://images.pokemontcg.io/base1/4_hires.png"
+      "small": "/pokemon-tcg-dashboard/card-images/charizard-first-edition.svg",
+      "large": "/pokemon-tcg-dashboard/card-images/charizard-first-edition.svg"
     },
     "currentPrices": {
-      "psa8": { "value": 18500, "trend30d": 3.2, "direction": "up" },
-      "psa9": { "value": 78500, "trend30d": 1.6, "direction": "up" },
-      "psa10": { "value": 365000, "trend30d": -2.1, "direction": "down" }
+      "psa8": {
+        "value": 18500,
+        "trend30d": 3.2,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 78500,
+        "trend30d": 1.6,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 365000,
+        "trend30d": -2.1,
+        "direction": "down"
+      }
     },
     "history": [
-      { "month": "Jul", "date": "2025-07-15", "psa8": 16200, "psa9": 72500, "psa10": 392000, "sources": { "psa8": "eBay", "psa9": "Goldin", "psa10": "Goldin" } },
-      { "month": "Aug", "date": "2025-08-15", "psa8": 16600, "psa9": 73100, "psa10": 389000, "sources": { "psa8": "Fanatics Collect", "psa9": "eBay", "psa10": "Fanatics Collect" } },
-      { "month": "Sep", "date": "2025-09-15", "psa8": 17100, "psa9": 74250, "psa10": 386000, "sources": { "psa8": "Goldin", "psa9": "Goldin", "psa10": "eBay" } },
-      { "month": "Oct", "date": "2025-10-15", "psa8": 16950, "psa9": 75100, "psa10": 381000, "sources": { "psa8": "eBay", "psa9": "Fanatics Collect", "psa10": "Goldin" } },
-      { "month": "Nov", "date": "2025-11-15", "psa8": 17400, "psa9": 75900, "psa10": 379000, "sources": { "psa8": "Fanatics Collect", "psa9": "eBay", "psa10": "Fanatics Collect" } },
-      { "month": "Dec", "date": "2025-12-15", "psa8": 17650, "psa9": 76500, "psa10": 375000, "sources": { "psa8": "Goldin", "psa9": "Goldin", "psa10": "Goldin" } },
-      { "month": "Jan", "date": "2026-01-15", "psa8": 17800, "psa9": 77100, "psa10": 372000, "sources": { "psa8": "eBay", "psa9": "Fanatics Collect", "psa10": "eBay" } },
-      { "month": "Feb", "date": "2026-02-15", "psa8": 18100, "psa9": 77600, "psa10": 371000, "sources": { "psa8": "Fanatics Collect", "psa9": "Goldin", "psa10": "Fanatics Collect" } },
-      { "month": "Mar", "date": "2026-03-15", "psa8": 17950, "psa9": 78100, "psa10": 369500, "sources": { "psa8": "Goldin", "psa9": "eBay", "psa10": "Goldin" } },
-      { "month": "Apr", "date": "2026-04-15", "psa8": 18200, "psa9": 78400, "psa10": 368000, "sources": { "psa8": "eBay", "psa9": "Fanatics Collect", "psa10": "eBay" } },
-      { "month": "May", "date": "2026-05-15", "psa8": 18400, "psa9": 79000, "psa10": 373000, "sources": { "psa8": "Goldin", "psa9": "Goldin", "psa10": "Fanatics Collect" } },
-      { "month": "Jun", "date": "2026-06-15", "psa8": 18500, "psa9": 78500, "psa10": 365000, "sources": { "psa8": "Fanatics Collect", "psa9": "eBay", "psa10": "Goldin" } }
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 16200,
+        "psa9": 72500,
+        "psa10": 392000
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 16600,
+        "psa9": 73100,
+        "psa10": 389000
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 17100,
+        "psa9": 74250,
+        "psa10": 386000
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 16950,
+        "psa9": 75100,
+        "psa10": 381000
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 17400,
+        "psa9": 75900,
+        "psa10": 379000
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 17650,
+        "psa9": 76500,
+        "psa10": 375000
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 17800,
+        "psa9": 77100,
+        "psa10": 372000
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 18100,
+        "psa9": 77600,
+        "psa10": 371000
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 17950,
+        "psa9": 78100,
+        "psa10": 369500
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 18200,
+        "psa9": 78400,
+        "psa10": 368000
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 18400,
+        "psa9": 79000,
+        "psa10": 373000
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 18500,
+        "psa9": 78500,
+        "psa10": 365000
+      }
     ]
   },
   {
@@ -72,27 +240,111 @@
     "rank": 3,
     "rarity": "Secret Rare Alternate Art",
     "imageUrls": {
-      "small": "https://images.pokemontcg.io/swsh7/215.png",
-      "large": "https://images.pokemontcg.io/swsh7/215_hires.png"
+      "small": "/pokemon-tcg-dashboard/card-images/umbreon-vmax-moonbreon.svg",
+      "large": "/pokemon-tcg-dashboard/card-images/umbreon-vmax-moonbreon.svg"
     },
     "currentPrices": {
-      "psa8": { "value": 1075, "trend30d": 8.4, "direction": "up" },
-      "psa9": { "value": 1560, "trend30d": 9.7, "direction": "up" },
-      "psa10": { "value": 2480, "trend30d": 12.3, "direction": "up" }
+      "psa8": {
+        "value": 1075,
+        "trend30d": 8.4,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 1560,
+        "trend30d": 9.7,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 2480,
+        "trend30d": 12.3,
+        "direction": "up"
+      }
     },
     "history": [
-      { "month": "Jul", "date": "2025-07-15", "psa8": 690, "psa9": 990, "psa10": 1425, "sources": { "psa8": "eBay", "psa9": "eBay", "psa10": "Fanatics Collect" } },
-      { "month": "Aug", "date": "2025-08-15", "psa8": 715, "psa9": 1030, "psa10": 1500, "sources": { "psa8": "Fanatics Collect", "psa9": "Goldin", "psa10": "eBay" } },
-      { "month": "Sep", "date": "2025-09-15", "psa8": 745, "psa9": 1080, "psa10": 1580, "sources": { "psa8": "Goldin", "psa9": "Fanatics Collect", "psa10": "Goldin" } },
-      { "month": "Oct", "date": "2025-10-15", "psa8": 780, "psa9": 1135, "psa10": 1685, "sources": { "psa8": "eBay", "psa9": "eBay", "psa10": "Fanatics Collect" } },
-      { "month": "Nov", "date": "2025-11-15", "psa8": 820, "psa9": 1190, "psa10": 1775, "sources": { "psa8": "Fanatics Collect", "psa9": "Goldin", "psa10": "eBay" } },
-      { "month": "Dec", "date": "2025-12-15", "psa8": 855, "psa9": 1245, "psa10": 1875, "sources": { "psa8": "Goldin", "psa9": "Fanatics Collect", "psa10": "Goldin" } },
-      { "month": "Jan", "date": "2026-01-15", "psa8": 890, "psa9": 1300, "psa10": 1975, "sources": { "psa8": "eBay", "psa9": "Goldin", "psa10": "Fanatics Collect" } },
-      { "month": "Feb", "date": "2026-02-15", "psa8": 920, "psa9": 1360, "psa10": 2080, "sources": { "psa8": "Fanatics Collect", "psa9": "eBay", "psa10": "eBay" } },
-      { "month": "Mar", "date": "2026-03-15", "psa8": 955, "psa9": 1420, "psa10": 2190, "sources": { "psa8": "Goldin", "psa9": "Fanatics Collect", "psa10": "Goldin" } },
-      { "month": "Apr", "date": "2026-04-15", "psa8": 990, "psa9": 1480, "psa10": 2295, "sources": { "psa8": "eBay", "psa9": "Goldin", "psa10": "Fanatics Collect" } },
-      { "month": "May", "date": "2026-05-15", "psa8": 1035, "psa9": 1515, "psa10": 2385, "sources": { "psa8": "Fanatics Collect", "psa9": "eBay", "psa10": "Goldin" } },
-      { "month": "Jun", "date": "2026-06-15", "psa8": 1075, "psa9": 1560, "psa10": 2480, "sources": { "psa8": "eBay", "psa9": "Fanatics Collect", "psa10": "Fanatics Collect" } }
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 690,
+        "psa9": 990,
+        "psa10": 1425
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 715,
+        "psa9": 1030,
+        "psa10": 1500
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 745,
+        "psa9": 1080,
+        "psa10": 1580
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 780,
+        "psa9": 1135,
+        "psa10": 1685
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 820,
+        "psa9": 1190,
+        "psa10": 1775
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 855,
+        "psa9": 1245,
+        "psa10": 1875
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 890,
+        "psa9": 1300,
+        "psa10": 1975
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 920,
+        "psa9": 1360,
+        "psa10": 2080
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 955,
+        "psa9": 1420,
+        "psa10": 2190
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 990,
+        "psa9": 1480,
+        "psa10": 2295
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 1035,
+        "psa9": 1515,
+        "psa10": 2385
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 1075,
+        "psa9": 1560,
+        "psa10": 2480
+      }
     ]
   },
   {
@@ -104,27 +356,111 @@
     "rank": 4,
     "rarity": "Japanese XY-P Promo",
     "imageUrls": {
-      "small": "https://images.pokemontcg.io/smp/SM86.png",
-      "large": "https://images.pokemontcg.io/smp/SM86_hires.png"
+      "small": "/pokemon-tcg-dashboard/card-images/mario-pikachu-full-art.svg",
+      "large": "/pokemon-tcg-dashboard/card-images/mario-pikachu-full-art.svg"
     },
     "currentPrices": {
-      "psa8": { "value": 3600, "trend30d": -1.8, "direction": "down" },
-      "psa9": { "value": 8200, "trend30d": 2.6, "direction": "up" },
-      "psa10": { "value": 27500, "trend30d": 5.9, "direction": "up" }
+      "psa8": {
+        "value": 3600,
+        "trend30d": -1.8,
+        "direction": "down"
+      },
+      "psa9": {
+        "value": 8200,
+        "trend30d": 2.6,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 27500,
+        "trend30d": 5.9,
+        "direction": "up"
+      }
     },
     "history": [
-      { "month": "Jul", "date": "2025-07-15", "psa8": 3250, "psa9": 7200, "psa10": 21900, "sources": { "psa8": "Goldin", "psa9": "eBay", "psa10": "Fanatics Collect" } },
-      { "month": "Aug", "date": "2025-08-15", "psa8": 3375, "psa9": 7350, "psa10": 22650, "sources": { "psa8": "eBay", "psa9": "Fanatics Collect", "psa10": "Goldin" } },
-      { "month": "Sep", "date": "2025-09-15", "psa8": 3500, "psa9": 7525, "psa10": 23500, "sources": { "psa8": "Fanatics Collect", "psa9": "Goldin", "psa10": "eBay" } },
-      { "month": "Oct", "date": "2025-10-15", "psa8": 3620, "psa9": 7650, "psa10": 24200, "sources": { "psa8": "Goldin", "psa9": "eBay", "psa10": "Fanatics Collect" } },
-      { "month": "Nov", "date": "2025-11-15", "psa8": 3710, "psa9": 7790, "psa10": 24800, "sources": { "psa8": "eBay", "psa9": "Fanatics Collect", "psa10": "Goldin" } },
-      { "month": "Dec", "date": "2025-12-15", "psa8": 3680, "psa9": 7900, "psa10": 25350, "sources": { "psa8": "Fanatics Collect", "psa9": "Goldin", "psa10": "eBay" } },
-      { "month": "Jan", "date": "2026-01-15", "psa8": 3725, "psa9": 8025, "psa10": 26000, "sources": { "psa8": "Goldin", "psa9": "eBay", "psa10": "Fanatics Collect" } },
-      { "month": "Feb", "date": "2026-02-15", "psa8": 3690, "psa9": 8090, "psa10": 26350, "sources": { "psa8": "eBay", "psa9": "Fanatics Collect", "psa10": "Goldin" } },
-      { "month": "Mar", "date": "2026-03-15", "psa8": 3650, "psa9": 8150, "psa10": 26800, "sources": { "psa8": "Fanatics Collect", "psa9": "Goldin", "psa10": "Fanatics Collect" } },
-      { "month": "Apr", "date": "2026-04-15", "psa8": 3610, "psa9": 8180, "psa10": 27100, "sources": { "psa8": "Goldin", "psa9": "eBay", "psa10": "eBay" } },
-      { "month": "May", "date": "2026-05-15", "psa8": 3580, "psa9": 8210, "psa10": 27350, "sources": { "psa8": "eBay", "psa9": "Fanatics Collect", "psa10": "Goldin" } },
-      { "month": "Jun", "date": "2026-06-15", "psa8": 3600, "psa9": 8200, "psa10": 27500, "sources": { "psa8": "Fanatics Collect", "psa9": "Goldin", "psa10": "Fanatics Collect" } }
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 3250,
+        "psa9": 7200,
+        "psa10": 21900
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 3375,
+        "psa9": 7350,
+        "psa10": 22650
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 3500,
+        "psa9": 7525,
+        "psa10": 23500
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 3620,
+        "psa9": 7650,
+        "psa10": 24200
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 3710,
+        "psa9": 7790,
+        "psa10": 24800
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 3680,
+        "psa9": 7900,
+        "psa10": 25350
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 3725,
+        "psa9": 8025,
+        "psa10": 26000
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 3690,
+        "psa9": 8090,
+        "psa10": 26350
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 3650,
+        "psa9": 8150,
+        "psa10": 26800
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 3610,
+        "psa9": 8180,
+        "psa10": 27100
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 3580,
+        "psa9": 8210,
+        "psa10": 27350
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 3600,
+        "psa9": 8200,
+        "psa10": 27500
+      }
     ]
   },
   {
@@ -136,27 +472,111 @@
     "rank": 5,
     "rarity": "Shining Holo Rare",
     "imageUrls": {
-      "small": "https://images.pokemontcg.io/neo4/107.png",
-      "large": "https://images.pokemontcg.io/neo4/107_hires.png"
+      "small": "/pokemon-tcg-dashboard/card-images/shining-charizard-first-edition.svg",
+      "large": "/pokemon-tcg-dashboard/card-images/shining-charizard-first-edition.svg"
     },
     "currentPrices": {
-      "psa8": { "value": 4100, "trend30d": 1.4, "direction": "up" },
-      "psa9": { "value": 11800, "trend30d": -0.7, "direction": "down" },
-      "psa10": { "value": 95000, "trend30d": 4.2, "direction": "up" }
+      "psa8": {
+        "value": 4100,
+        "trend30d": 1.4,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 11800,
+        "trend30d": -0.7,
+        "direction": "down"
+      },
+      "psa10": {
+        "value": 95000,
+        "trend30d": 4.2,
+        "direction": "up"
+      }
     },
     "history": [
-      { "month": "Jul", "date": "2025-07-15", "psa8": 3700, "psa9": 10900, "psa10": 81250, "sources": { "psa8": "eBay", "psa9": "Goldin", "psa10": "Fanatics Collect" } },
-      { "month": "Aug", "date": "2025-08-15", "psa8": 3780, "psa9": 11150, "psa10": 82700, "sources": { "psa8": "Goldin", "psa9": "eBay", "psa10": "Goldin" } },
-      { "month": "Sep", "date": "2025-09-15", "psa8": 3860, "psa9": 11300, "psa10": 84500, "sources": { "psa8": "Fanatics Collect", "psa9": "Fanatics Collect", "psa10": "eBay" } },
-      { "month": "Oct", "date": "2025-10-15", "psa8": 3920, "psa9": 11600, "psa10": 86200, "sources": { "psa8": "eBay", "psa9": "Goldin", "psa10": "Fanatics Collect" } },
-      { "month": "Nov", "date": "2025-11-15", "psa8": 3990, "psa9": 11950, "psa10": 88100, "sources": { "psa8": "Goldin", "psa9": "eBay", "psa10": "Goldin" } },
-      { "month": "Dec", "date": "2025-12-15", "psa8": 4030, "psa9": 12100, "psa10": 89500, "sources": { "psa8": "Fanatics Collect", "psa9": "Fanatics Collect", "psa10": "eBay" } },
-      { "month": "Jan", "date": "2026-01-15", "psa8": 3980, "psa9": 12000, "psa10": 90750, "sources": { "psa8": "eBay", "psa9": "Goldin", "psa10": "Fanatics Collect" } },
-      { "month": "Feb", "date": "2026-02-15", "psa8": 4025, "psa9": 11925, "psa10": 91800, "sources": { "psa8": "Goldin", "psa9": "eBay", "psa10": "Goldin" } },
-      { "month": "Mar", "date": "2026-03-15", "psa8": 4050, "psa9": 11880, "psa10": 92850, "sources": { "psa8": "Fanatics Collect", "psa9": "Fanatics Collect", "psa10": "eBay" } },
-      { "month": "Apr", "date": "2026-04-15", "psa8": 4075, "psa9": 11840, "psa10": 93600, "sources": { "psa8": "eBay", "psa9": "Goldin", "psa10": "Fanatics Collect" } },
-      { "month": "May", "date": "2026-05-15", "psa8": 4090, "psa9": 11820, "psa10": 94250, "sources": { "psa8": "Goldin", "psa9": "eBay", "psa10": "Goldin" } },
-      { "month": "Jun", "date": "2026-06-15", "psa8": 4100, "psa9": 11800, "psa10": 95000, "sources": { "psa8": "Fanatics Collect", "psa9": "Fanatics Collect", "psa10": "eBay" } }
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 3700,
+        "psa9": 10900,
+        "psa10": 81250
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 3780,
+        "psa9": 11150,
+        "psa10": 82700
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 3860,
+        "psa9": 11300,
+        "psa10": 84500
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 3920,
+        "psa9": 11600,
+        "psa10": 86200
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 3990,
+        "psa9": 11950,
+        "psa10": 88100
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 4030,
+        "psa9": 12100,
+        "psa10": 89500
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 3980,
+        "psa9": 12000,
+        "psa10": 90750
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 4025,
+        "psa9": 11925,
+        "psa10": 91800
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 4050,
+        "psa9": 11880,
+        "psa10": 92850
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 4075,
+        "psa9": 11840,
+        "psa10": 93600
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 4090,
+        "psa9": 11820,
+        "psa10": 94250
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 4100,
+        "psa9": 11800,
+        "psa10": 95000
+      }
     ]
   }
 ]

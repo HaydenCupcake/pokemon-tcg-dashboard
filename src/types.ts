@@ -1,4 +1,3 @@
-export type SaleSource = 'eBay' | 'Goldin' | 'Fanatics Collect' | 'TCGPlayer' | 'Cardmarket' | 'Modeled'
 export type GradeKey = 'psa8' | 'psa9' | 'psa10'
 export type TrendDirection = 'up' | 'down'
 
@@ -14,7 +13,6 @@ export interface HistoricalPricePoint {
   psa8: number
   psa9: number
   psa10: number
-  sources: Record<GradeKey, SaleSource>
 }
 
 export interface PokemonCardPriceRecord {
