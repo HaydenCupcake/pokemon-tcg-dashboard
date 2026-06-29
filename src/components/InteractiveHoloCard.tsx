@@ -121,7 +121,7 @@ export function InteractiveHoloCard({ card, onSelect }: InteractiveHoloCardProps
 
           <div className="flex items-center gap-2 rounded-2xl border border-red-400/30 bg-red-950/40 px-3 py-2 text-[11px] font-bold leading-snug text-red-100">
             <BadgeDollarSign className="h-4 w-4 shrink-0 text-red-300" />
-            Data aggregated from eBay, Goldin & Fanatics Collect.
+            Premium valuation snapshot.
           </div>
         </div>
       </div>
