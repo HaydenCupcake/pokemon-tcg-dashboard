@@ -21,27 +21,39 @@ if (!APIFY_API_TOKEN) {
   process.exit(1)
 }
 
-const queryOverrides = {
-  'Illustrator Pikachu': [
-    'name:"Pikachu" rarity:"Rare Holo"',
-    'name:"Pikachu" subtypes:Basic',
-  ],
-  '1st Edition Base Set Charizard': [
-    'id:base1-4',
-    'name:"Charizard" set.id:base1 number:4',
-  ],
-  'Umbreon VMAX Alternate Art (Moonbreon)': [
-    'id:swsh7-215',
-    'name:"Umbreon VMAX" set.id:swsh7 number:215',
-  ],
-  'Mario Pikachu Full Art': [
-    'name:"Mario Pikachu"',
-    'name:"Pikachu" set.name:"XY Black Star Promos"',
-  ],
-  '1st Edition Neo Genesis Lugia': [
-    'name:"Lugia" set.name:"Neo Genesis"',
-    'name:"Lugia" number:9',
-  ],
+const cardRules = {
+  'Illustrator Pikachu': {
+    fallbackOnly: true,
+    fallbackReason: 'No exact Illustrator Pikachu record is available from the current free public source.',
+  },
+  '1st Edition Base Set Charizard': {
+    exactId: 'base1-4',
+    preserveSeedIdentity: true,
+    queries: [
+      'id:base1-4',
+      'name:"Charizard" set.id:base1 number:4',
+    ],
+  },
+  'Umbreon VMAX Alternate Art (Moonbreon)': {
+    exactId: 'swsh7-215',
+    preserveSeedIdentity: true,
+    queries: [
+      'id:swsh7-215',
+      'name:"Umbreon VMAX" set.id:swsh7 number:215',
+    ],
+  },
+  'Mario Pikachu Full Art': {
+    fallbackOnly: true,
+    fallbackReason: 'No exact Mario Pikachu promo record is available from the current free public source.',
+  },
+  'Shining Charizard 1st Edition': {
+    exactId: 'neo4-107',
+    preserveSeedIdentity: true,
+    queries: [
+      'name:"Shining Charizard" set.name:"Neo Destiny"',
+      'id:neo4-107',
+    ],
+  },
 }
 
 function parseJsonMaybe(value, fallback = null) {
@@ -126,6 +138,17 @@ function directionFromDelta(delta) {
   return delta >= 0 ? 'up' : 'down'
 }
 
+function cloneWithSourceLabel(history, label) {
+  return history.map((point) => ({
+    ...point,
+    sources: {
+      psa8: label,
+      psa9: label,
+      psa10: label,
+    },
+  }))
+}
+
 function buildModeledHistory(currentPrices, seedKey) {
   const random = pseudoRandom(seedFromString(seedKey))
   const grades = ['psa8', 'psa9', 'psa10']
@@ -176,7 +199,7 @@ function scoreCandidate(seedCard, item) {
   const setName = normalizeName(setData?.name)
   const seedSet = normalizeName(seedCard.set)
   if (seedSet && setName && (seedSet.includes(setName) || setName.includes(seedSet))) score += 3
-  if (String(item.number || '') === String(seedCard.cardId || '').match(/-(\d+)(?:$|[^\d])/ )?.[1]) score += 1
+  if (String(item.number || '') === String(seedCard.cardId || '').match(/-(\d+)(?:$|[^\d])/)?.[1]) score += 1
   return score
 }
 
@@ -195,8 +218,29 @@ async function runActorSearch(client, query) {
   return items
 }
 
+function fallbackRecord(seedCard, reason) {
+  return {
+    ...seedCard,
+    history: cloneWithSourceLabel(seedCard.history, 'Modeled'),
+    liveSource: {
+      actor: APIFY_ACTOR_ID,
+      source: 'Modeled',
+      variant: 'seed-fallback',
+      rawMarketPrice: null,
+      tcgplayerUrl: null,
+      updatedAt: null,
+      fallbackReason: reason,
+    },
+  }
+}
+
 async function fetchBestMatch(client, seedCard) {
-  const queries = queryOverrides[seedCard.name] || [
+  const rule = cardRules[seedCard.name] || {}
+  if (rule.fallbackOnly) {
+    return { kind: 'fallback', reason: rule.fallbackReason }
+  }
+
+  const queries = rule.queries || [
     `name:"${seedCard.name.replace(/"/g, '')}"`,
     `name:"${seedCard.name.split(' ')[0]}"`,
   ]
@@ -207,6 +251,12 @@ async function fetchBestMatch(client, seedCard) {
   for (const query of queries) {
     console.log(`  query -> ${query}`)
     const items = await runActorSearch(client, query)
+
+    if (rule.exactId) {
+      const exact = items.find((item) => item.id === rule.exactId)
+      if (exact) return { kind: 'live', item: exact, rule }
+    }
+
     for (const item of items) {
       const score = scoreCandidate(seedCard, item)
       if (score > bestScore) {
@@ -214,15 +264,26 @@ async function fetchBestMatch(client, seedCard) {
         bestItem = item
       }
     }
-    if (bestScore >= 6) break
   }
 
-  return bestItem
+  if (rule.exactId) {
+    return {
+      kind: 'fallback',
+      reason: `Exact public-source match ${rule.exactId} was not returned for ${seedCard.name}.`,
+    }
+  }
+
+  if (!bestItem || bestScore < 6) {
+    return {
+      kind: 'fallback',
+      reason: `No strong public-source match met the quality threshold for ${seedCard.name}.`,
+    }
+  }
+
+  return { kind: 'live', item: bestItem, rule }
 }
 
-function mapSeedCard(seedCard, liveItem) {
-  if (!liveItem) return seedCard
-
+function mapLiveCard(seedCard, liveItem, rule = {}) {
   const setData = parseJsonMaybe(liveItem.set, {}) || {}
   const images = parseJsonMaybe(liveItem.images, {}) || {}
   const tcgplayer = parseJsonMaybe(liveItem.tcgplayer, {}) || {}
@@ -246,18 +307,22 @@ function mapSeedCard(seedCard, liveItem) {
     currentPrices[grade].direction = directionFromDelta(delta)
   }
 
+  const preserveSeedIdentity = Boolean(rule.preserveSeedIdentity)
+
   return {
     ...seedCard,
-    cardId: liveItem.id || seedCard.cardId,
-    name: liveItem.name || seedCard.name,
-    set: setData?.name || seedCard.set,
-    releaseYear,
-    artist: liveItem.artist || seedCard.artist,
-    rarity: liveItem.rarity || seedCard.rarity,
-    imageUrls: {
-      small: images.small || seedCard.imageUrls.small,
-      large: images.large || seedCard.imageUrls.large,
-    },
+    cardId: preserveSeedIdentity ? seedCard.cardId : (liveItem.id || seedCard.cardId),
+    name: preserveSeedIdentity ? seedCard.name : (liveItem.name || seedCard.name),
+    set: preserveSeedIdentity ? seedCard.set : (setData?.name || seedCard.set),
+    releaseYear: preserveSeedIdentity ? seedCard.releaseYear : releaseYear,
+    artist: preserveSeedIdentity ? seedCard.artist : (liveItem.artist || seedCard.artist),
+    rarity: preserveSeedIdentity ? seedCard.rarity : (liveItem.rarity || seedCard.rarity),
+    imageUrls: preserveSeedIdentity
+      ? seedCard.imageUrls
+      : {
+          small: images.small || seedCard.imageUrls.small,
+          large: images.large || seedCard.imageUrls.large,
+        },
     currentPrices,
     history,
     liveSource: {
@@ -267,6 +332,9 @@ function mapSeedCard(seedCard, liveItem) {
       rawMarketPrice: market.value,
       tcgplayerUrl: tcgplayer?.url || null,
       updatedAt: tcgplayer?.updatedAt || null,
+      matchedCardId: liveItem.id || null,
+      matchedCardName: liveItem.name || null,
+      matchedSetName: setData?.name || null,
     },
   }
 }
@@ -280,8 +348,13 @@ async function main() {
 
   for (const seedCard of seedCards) {
     console.log(`Processing ${seedCard.name}`)
-    const liveItem = await fetchBestMatch(client, seedCard)
-    results.push(mapSeedCard(seedCard, liveItem))
+    const match = await fetchBestMatch(client, seedCard)
+    if (match.kind === 'fallback') {
+      console.log(`  fallback -> ${match.reason}`)
+      results.push(fallbackRecord(seedCard, match.reason))
+      continue
+    }
+    results.push(mapLiveCard(seedCard, match.item, match.rule))
   }
 
   await fs.mkdir(path.dirname(outputPath), { recursive: true })
