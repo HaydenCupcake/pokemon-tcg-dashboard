@@ -57,7 +57,7 @@ function CustomTooltip({ active, payload, label }: CustomTooltipProps) {
               <span className="font-bold" style={{ color: meta.color }}>{meta.label}</span>
               <span className="text-right">
                 <strong className="block text-white">{money.format(Number(entry.value))}</strong>
-                <span className="text-xs text-slate-400">Source: {point?.sources[key]}</span>
+                <span className="text-xs text-slate-400">Updated valuation point</span>
               </span>
             </div>
           )
@@ -162,11 +162,11 @@ export function CardModal({ card, onClose }: CardModalProps) {
                     <p className="text-xs font-black uppercase tracking-[0.28em] text-red-300">12-month grade model</p>
                     <h3 className="mt-2 text-3xl font-black text-white">PSA Valuation History</h3>
                     <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-400">
-                      Live public card pricing is pulled through Apify from pokemontcg.io / TCGPlayer. PSA grade curves are modeled from that baseline because this free source does not expose full graded-sales history.
+                      Current card pricing is paired with modeled PSA grade curves to present a consistent 12-month valuation view.
                     </p>
                   </div>
                   <div className="flex items-center gap-2 rounded-2xl border border-emerald-400/20 bg-emerald-950/30 px-4 py-3 text-sm font-bold text-emerald-200">
-                    <ShieldCheck className="h-5 w-5" /> Live source + modeled grades
+                    <ShieldCheck className="h-5 w-5" /> Current pricing + modeled grades
                   </div>
                 </div>
 
