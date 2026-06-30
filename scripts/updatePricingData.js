@@ -23,24 +23,24 @@ if (!APIFY_API_TOKEN) {
 
 const publicImageOverrides = {
   'Illustrator Pikachu': {
-    small: '/pokemon-tcg-dashboard/card-images/illustrator-pikachu.svg',
-    large: '/pokemon-tcg-dashboard/card-images/illustrator-pikachu.svg',
+    small: '/pokemon-tcg-dashboard/card-images/illustrator-pikachu.jpg',
+    large: '/pokemon-tcg-dashboard/card-images/illustrator-pikachu.jpg',
   },
   '1st Edition Base Set Charizard': {
-    small: '/pokemon-tcg-dashboard/card-images/charizard-first-edition.svg',
-    large: '/pokemon-tcg-dashboard/card-images/charizard-first-edition.svg',
+    small: '/pokemon-tcg-dashboard/card-images/charizard-first-edition.png',
+    large: '/pokemon-tcg-dashboard/card-images/charizard-first-edition.png',
   },
   'Umbreon VMAX Alternate Art (Moonbreon)': {
-    small: '/pokemon-tcg-dashboard/card-images/umbreon-vmax-moonbreon.svg',
-    large: '/pokemon-tcg-dashboard/card-images/umbreon-vmax-moonbreon.svg',
+    small: '/pokemon-tcg-dashboard/card-images/umbreon-vmax-moonbreon.png',
+    large: '/pokemon-tcg-dashboard/card-images/umbreon-vmax-moonbreon.png',
   },
   'Mario Pikachu Full Art': {
-    small: '/pokemon-tcg-dashboard/card-images/mario-pikachu-full-art.svg',
-    large: '/pokemon-tcg-dashboard/card-images/mario-pikachu-full-art.svg',
+    small: '/pokemon-tcg-dashboard/card-images/mario-pikachu-full-art.jpg',
+    large: '/pokemon-tcg-dashboard/card-images/mario-pikachu-full-art.jpg',
   },
   'Shining Charizard 1st Edition': {
-    small: '/pokemon-tcg-dashboard/card-images/shining-charizard-first-edition.svg',
-    large: '/pokemon-tcg-dashboard/card-images/shining-charizard-first-edition.svg',
+    small: '/pokemon-tcg-dashboard/card-images/shining-charizard-first-edition.png',
+    large: '/pokemon-tcg-dashboard/card-images/shining-charizard-first-edition.png',
   },
 }
 
@@ -371,20 +371,33 @@ async function main() {
   const seedPath = path.join(rootDir, 'src', 'data', 'mockPricingData.json')
   const outputPath = path.join(rootDir, OUTPUT_FILE)
   const seedCards = JSON.parse(await fs.readFile(seedPath, 'utf8'))
+  const existingOutput = JSON.parse(await fs.readFile(outputPath, 'utf8').catch(() => '[]'))
+  const cachedByName = new Map(existingOutput.map((card) => [card.name, card]))
   const results = []
 
   for (const rawSeedCard of seedCards) {
     const seedCard = sanitizePublicRecord(rawSeedCard)
     console.log(`Processing ${seedCard.name}`)
-    const match = await fetchBestMatch(client, seedCard)
-    const supplemental = await fetchSupplementalPrices(match.rule || cardRules[seedCard.name])
-    if (supplemental) console.log('  supplemental pricing merged')
-    if (match.kind === 'fallback') {
-      console.log(`  fallback -> ${match.reason}`)
-      results.push(fallbackRecord(seedCard, match.reason, supplemental))
-      continue
+    try {
+      const match = await fetchBestMatch(client, seedCard)
+      const supplemental = await fetchSupplementalPrices(match.rule || cardRules[seedCard.name])
+      if (supplemental) console.log('  supplemental pricing merged')
+      if (match.kind === 'fallback') {
+        console.log(`  fallback -> ${match.reason}`)
+        results.push(fallbackRecord(seedCard, match.reason, supplemental))
+        continue
+      }
+      results.push(mapLiveCard(seedCard, match.item, match.rule, supplemental))
+    } catch (error) {
+      const cached = cachedByName.get(seedCard.name)
+      if (cached) {
+        console.warn(`  cached fallback -> ${error.message}`)
+        results.push(sanitizePublicRecord({ ...cached, imageUrls: publicImagesFor(seedCard) }))
+        continue
+      }
+      console.warn(`  seed fallback -> ${error.message}`)
+      results.push(fallbackRecord(seedCard, error.message, null))
     }
-    results.push(mapLiveCard(seedCard, match.item, match.rule, supplemental))
   }
 
   await fs.mkdir(path.dirname(outputPath), { recursive: true })

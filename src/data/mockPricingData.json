@@ -8,8 +8,8 @@
     "rank": 1,
     "rarity": "Japanese Promo Trophy Card",
     "imageUrls": {
-      "small": "/pokemon-tcg-dashboard/card-images/illustrator-pikachu.svg",
-      "large": "/pokemon-tcg-dashboard/card-images/illustrator-pikachu.svg"
+      "small": "/pokemon-tcg-dashboard/card-images/illustrator-pikachu.jpg",
+      "large": "/pokemon-tcg-dashboard/card-images/illustrator-pikachu.jpg"
     },
     "currentPrices": {
       "psa8": {
@@ -124,8 +124,8 @@
     "rank": 2,
     "rarity": "Holo Rare",
     "imageUrls": {
-      "small": "/pokemon-tcg-dashboard/card-images/charizard-first-edition.svg",
-      "large": "/pokemon-tcg-dashboard/card-images/charizard-first-edition.svg"
+      "small": "/pokemon-tcg-dashboard/card-images/charizard-first-edition.png",
+      "large": "/pokemon-tcg-dashboard/card-images/charizard-first-edition.png"
     },
     "currentPrices": {
       "psa8": {
@@ -240,8 +240,8 @@
     "rank": 3,
     "rarity": "Secret Rare Alternate Art",
     "imageUrls": {
-      "small": "/pokemon-tcg-dashboard/card-images/umbreon-vmax-moonbreon.svg",
-      "large": "/pokemon-tcg-dashboard/card-images/umbreon-vmax-moonbreon.svg"
+      "small": "/pokemon-tcg-dashboard/card-images/umbreon-vmax-moonbreon.png",
+      "large": "/pokemon-tcg-dashboard/card-images/umbreon-vmax-moonbreon.png"
     },
     "currentPrices": {
       "psa8": {
@@ -356,8 +356,8 @@
     "rank": 4,
     "rarity": "Japanese XY-P Promo",
     "imageUrls": {
-      "small": "/pokemon-tcg-dashboard/card-images/mario-pikachu-full-art.svg",
-      "large": "/pokemon-tcg-dashboard/card-images/mario-pikachu-full-art.svg"
+      "small": "/pokemon-tcg-dashboard/card-images/mario-pikachu-full-art.jpg",
+      "large": "/pokemon-tcg-dashboard/card-images/mario-pikachu-full-art.jpg"
     },
     "currentPrices": {
       "psa8": {
@@ -472,8 +472,8 @@
     "rank": 5,
     "rarity": "Shining Holo Rare",
     "imageUrls": {
-      "small": "/pokemon-tcg-dashboard/card-images/shining-charizard-first-edition.svg",
-      "large": "/pokemon-tcg-dashboard/card-images/shining-charizard-first-edition.svg"
+      "small": "/pokemon-tcg-dashboard/card-images/shining-charizard-first-edition.png",
+      "large": "/pokemon-tcg-dashboard/card-images/shining-charizard-first-edition.png"
     },
     "currentPrices": {
       "psa8": {
