@@ -3,6 +3,7 @@
     "cardId": "sm9-33-staff-illustrator-pikachu",
     "name": "Illustrator Pikachu",
     "set": "CoroCoro Comics Illustration Contest Promo",
+    "theme": "Signature Chase Cards",
     "releaseYear": 1998,
     "artist": "Atsuko Nishida",
     "rank": 1,
@@ -14,13 +15,13 @@
     "currentPrices": {
       "psa8": {
         "value": 500000,
-        "trend30d": 3.1,
+        "trend30d": 0,
         "direction": "up"
       },
       "psa9": {
         "value": 541387,
-        "trend30d": -41.5,
-        "direction": "down"
+        "trend30d": 0,
+        "direction": "up"
       },
       "psa10": {
         "value": 5850000,
@@ -119,6 +120,7 @@
     "cardId": "base1-4-first-edition-charizard",
     "name": "1st Edition Base Set Charizard",
     "set": "Base Set 1st Edition Shadowless",
+    "theme": "Signature Chase Cards",
     "releaseYear": 1999,
     "artist": "Mitsuhiro Arita",
     "rank": 2,
@@ -235,6 +237,7 @@
     "cardId": "swsh7-215-umbreon-vmax-alt-art",
     "name": "Umbreon VMAX Alternate Art (Moonbreon)",
     "set": "Evolving Skies",
+    "theme": "Signature Chase Cards",
     "releaseYear": 2021,
     "artist": "KEIICHIRO ITO",
     "rank": 3,
@@ -351,6 +354,7 @@
     "cardId": "xy-p-mario-pikachu-294",
     "name": "Mario Pikachu Full Art",
     "set": "Pokémon Center Mario Pikachu Promo",
+    "theme": "Signature Chase Cards",
     "releaseYear": 2016,
     "artist": "Mitsuhiro Arita",
     "rank": 4,
@@ -362,17 +366,17 @@
     "currentPrices": {
       "psa8": {
         "value": 10100,
-        "trend30d": 180.6,
+        "trend30d": 0,
         "direction": "up"
       },
       "psa9": {
         "value": 13350,
-        "trend30d": 62.8,
+        "trend30d": 0,
         "direction": "up"
       },
       "psa10": {
         "value": 30118,
-        "trend30d": 9.5,
+        "trend30d": 0,
         "direction": "up"
       }
     },
@@ -467,6 +471,7 @@
     "cardId": "neo4-17-shining-charizard",
     "name": "Shining Charizard 1st Edition",
     "set": "Neo Destiny 1st Edition",
+    "theme": "Signature Chase Cards",
     "releaseYear": 2002,
     "artist": "Hironobu Yoshida",
     "rank": 5,
@@ -576,6 +581,5271 @@
         "psa8": 8794,
         "psa9": 12100,
         "psa10": 55000
+      }
+    ]
+  },
+  {
+    "cardId": "base1-2",
+    "name": "Blastoise",
+    "set": "Base",
+    "theme": "Vintage Base Set Icons",
+    "releaseYear": 1999,
+    "artist": "Ken Sugimori",
+    "rank": 6,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base1/2.png",
+      "large": "https://images.pokemontcg.io/base1/2_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 6211,
+        "trend30d": 4,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 10641,
+        "trend30d": 3.4,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 17384,
+        "trend30d": 3.6,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 4258,
+        "psa9": 7723,
+        "psa10": 13060
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 4663,
+        "psa9": 8475,
+        "psa10": 13853
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 4614,
+        "psa9": 8569,
+        "psa10": 13777
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 4955,
+        "psa9": 8744,
+        "psa10": 13753
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 5306,
+        "psa9": 8527,
+        "psa10": 13953
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 5411,
+        "psa9": 9051,
+        "psa10": 15276
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 5497,
+        "psa9": 9574,
+        "psa10": 15004
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 5689,
+        "psa9": 9441,
+        "psa10": 15581
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 5826,
+        "psa9": 9862,
+        "psa10": 16115
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 5849,
+        "psa9": 10176,
+        "psa10": 16521
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 5973,
+        "psa9": 10293,
+        "psa10": 16776
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 6211,
+        "psa9": 10641,
+        "psa10": 17384
+      }
+    ]
+  },
+  {
+    "cardId": "base1-15",
+    "name": "Venusaur",
+    "set": "Base",
+    "theme": "Vintage Base Set Icons",
+    "releaseYear": 1999,
+    "artist": "Mitsuhiro Arita",
+    "rank": 7,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base1/15.png",
+      "large": "https://images.pokemontcg.io/base1/15_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 6116,
+        "trend30d": 3.1,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 10634,
+        "trend30d": 3.7,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 18749,
+        "trend30d": 2.3,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 4738,
+        "psa9": 7294,
+        "psa10": 14181
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 4510,
+        "psa9": 8203,
+        "psa10": 14881
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 4797,
+        "psa9": 8538,
+        "psa10": 14676
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 4899,
+        "psa9": 8308,
+        "psa10": 14717
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 4974,
+        "psa9": 9013,
+        "psa10": 15067
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 5180,
+        "psa9": 8972,
+        "psa10": 16471
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 5322,
+        "psa9": 9234,
+        "psa10": 16808
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 5590,
+        "psa9": 9700,
+        "psa10": 17063
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 5588,
+        "psa9": 9705,
+        "psa10": 17278
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 5729,
+        "psa9": 10156,
+        "psa10": 17986
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 5930,
+        "psa9": 10256,
+        "psa10": 18321
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 6116,
+        "psa9": 10634,
+        "psa10": 18749
+      }
+    ]
+  },
+  {
+    "cardId": "base1-10",
+    "name": "Mewtwo",
+    "set": "Base",
+    "theme": "Vintage Base Set Icons",
+    "releaseYear": 1999,
+    "artist": "Ken Sugimori",
+    "rank": 8,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base1/10.png",
+      "large": "https://images.pokemontcg.io/base1/10_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 21950,
+        "trend30d": 3.5,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 36175,
+        "trend30d": 2.7,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 59951,
+        "trend30d": 2.6,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 16609,
+        "psa9": 26504,
+        "psa10": 46581
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 17276,
+        "psa9": 26071,
+        "psa10": 44287
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 16853,
+        "psa9": 28715,
+        "psa10": 44896
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 17349,
+        "psa9": 28273,
+        "psa10": 48379
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 18270,
+        "psa9": 29366,
+        "psa10": 48610
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 18327,
+        "psa9": 31728,
+        "psa10": 52879
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 19752,
+        "psa9": 31643,
+        "psa10": 52328
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 19916,
+        "psa9": 33223,
+        "psa10": 53967
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 20506,
+        "psa9": 33524,
+        "psa10": 54832
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 20878,
+        "psa9": 34113,
+        "psa10": 57345
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 21212,
+        "psa9": 35213,
+        "psa10": 58443
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 21950,
+        "psa9": 36175,
+        "psa10": 59951
+      }
+    ]
+  },
+  {
+    "cardId": "base1-6",
+    "name": "Gyarados",
+    "set": "Base",
+    "theme": "Vintage Base Set Icons",
+    "releaseYear": 1999,
+    "artist": "Mitsuhiro Arita",
+    "rank": 9,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base1/6.png",
+      "large": "https://images.pokemontcg.io/base1/6_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2701,
+        "trend30d": 3.9,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 4283,
+        "trend30d": 2.2,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 6717,
+        "trend30d": 3.8,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1998,
+        "psa9": 3205,
+        "psa10": 4936
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 2067,
+        "psa9": 3352,
+        "psa10": 5158
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 2042,
+        "psa9": 3412,
+        "psa10": 5286
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2173,
+        "psa9": 3332,
+        "psa10": 5368
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2273,
+        "psa9": 3488,
+        "psa10": 5454
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2319,
+        "psa9": 3574,
+        "psa10": 5603
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2383,
+        "psa9": 3843,
+        "psa10": 5941
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2472,
+        "psa9": 3802,
+        "psa10": 6184
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2499,
+        "psa9": 3941,
+        "psa10": 6282
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2544,
+        "psa9": 4096,
+        "psa10": 6396
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2599,
+        "psa9": 4190,
+        "psa10": 6468
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2701,
+        "psa9": 4283,
+        "psa10": 6717
+      }
+    ]
+  },
+  {
+    "cardId": "base1-8",
+    "name": "Machamp",
+    "set": "Base",
+    "theme": "Vintage Base Set Icons",
+    "releaseYear": 1999,
+    "artist": "Ken Sugimori",
+    "rank": 10,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base1/8.png",
+      "large": "https://images.pokemontcg.io/base1/8_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2702,
+        "trend30d": 3.3,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 4383,
+        "trend30d": 3.2,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 7279,
+        "trend30d": 2.8,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 2073,
+        "psa9": 3110,
+        "psa10": 5288
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 1964,
+        "psa9": 3201,
+        "psa10": 5491
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 2061,
+        "psa9": 3299,
+        "psa10": 5709
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2178,
+        "psa9": 3463,
+        "psa10": 5857
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2251,
+        "psa9": 3751,
+        "psa10": 6156
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2309,
+        "psa9": 3736,
+        "psa10": 6313
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2388,
+        "psa9": 3916,
+        "psa10": 6377
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2480,
+        "psa9": 4044,
+        "psa10": 6485
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2482,
+        "psa9": 4055,
+        "psa10": 6785
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2545,
+        "psa9": 4175,
+        "psa10": 6873
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2615,
+        "psa9": 4246,
+        "psa10": 7078
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2702,
+        "psa9": 4383,
+        "psa10": 7279
+      }
+    ]
+  },
+  {
+    "cardId": "base1-14",
+    "name": "Raichu",
+    "set": "Base",
+    "theme": "Vintage Base Set Icons",
+    "releaseYear": 1999,
+    "artist": "Ken Sugimori",
+    "rank": 11,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base1/14.png",
+      "large": "https://images.pokemontcg.io/base1/14_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2912,
+        "trend30d": 3.4,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 5010,
+        "trend30d": 2.6,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 7976,
+        "trend30d": 2.7,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 2071,
+        "psa9": 3784,
+        "psa10": 6066
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 2069,
+        "psa9": 3996,
+        "psa10": 5660
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 2274,
+        "psa9": 3934,
+        "psa10": 5929
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2330,
+        "psa9": 4055,
+        "psa10": 6524
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2387,
+        "psa9": 4153,
+        "psa10": 6506
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2563,
+        "psa9": 4313,
+        "psa10": 6686
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2612,
+        "psa9": 4344,
+        "psa10": 7183
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2658,
+        "psa9": 4601,
+        "psa10": 7098
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2683,
+        "psa9": 4650,
+        "psa10": 7367
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2742,
+        "psa9": 4727,
+        "psa10": 7579
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2816,
+        "psa9": 4885,
+        "psa10": 7763
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2912,
+        "psa9": 5010,
+        "psa10": 7976
+      }
+    ]
+  },
+  {
+    "cardId": "base1-11",
+    "name": "Nidoking",
+    "set": "Base",
+    "theme": "Vintage Base Set Icons",
+    "releaseYear": 1999,
+    "artist": "Ken Sugimori",
+    "rank": 12,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base1/11.png",
+      "large": "https://images.pokemontcg.io/base1/11_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2911,
+        "trend30d": 3.2,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 4850,
+        "trend30d": 2.7,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 7655,
+        "trend30d": 3.1,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 2097,
+        "psa9": 3702,
+        "psa10": 5916
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 2105,
+        "psa9": 3809,
+        "psa10": 5603
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 2245,
+        "psa9": 3936,
+        "psa10": 6034
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2313,
+        "psa9": 4002,
+        "psa10": 5923
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2405,
+        "psa9": 4029,
+        "psa10": 6558
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2503,
+        "psa9": 4171,
+        "psa10": 6660
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2559,
+        "psa9": 4218,
+        "psa10": 6650
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2645,
+        "psa9": 4454,
+        "psa10": 6833
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2721,
+        "psa9": 4461,
+        "psa10": 7053
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2755,
+        "psa9": 4631,
+        "psa10": 7331
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2821,
+        "psa9": 4723,
+        "psa10": 7424
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2911,
+        "psa9": 4850,
+        "psa10": 7655
+      }
+    ]
+  },
+  {
+    "cardId": "base2-11",
+    "name": "Snorlax",
+    "set": "Jungle",
+    "theme": "Vintage Base Set Icons",
+    "releaseYear": 1999,
+    "artist": "Ken Sugimori",
+    "rank": 13,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base2/11.png",
+      "large": "https://images.pokemontcg.io/base2/11_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 3257,
+        "trend30d": 3.4,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 5528,
+        "trend30d": 3.6,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 8925,
+        "trend30d": 3.1,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 2451,
+        "psa9": 3952,
+        "psa10": 6607
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 2387,
+        "psa9": 4148,
+        "psa10": 6830
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 2419,
+        "psa9": 4316,
+        "psa10": 7152
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2591,
+        "psa9": 4565,
+        "psa10": 7081
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2706,
+        "psa9": 4653,
+        "psa10": 7259
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2731,
+        "psa9": 4877,
+        "psa10": 7616
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2810,
+        "psa9": 4768,
+        "psa10": 7802
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2924,
+        "psa9": 4944,
+        "psa10": 7981
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 3027,
+        "psa9": 5138,
+        "psa10": 8342
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 3100,
+        "psa9": 5240,
+        "psa10": 8517
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 3149,
+        "psa9": 5334,
+        "psa10": 8655
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 3257,
+        "psa9": 5528,
+        "psa10": 8925
+      }
+    ]
+  },
+  {
+    "cardId": "base3-2",
+    "name": "Articuno",
+    "set": "Fossil",
+    "theme": "Legendary Birds & Dragons",
+    "releaseYear": 1999,
+    "artist": "Mitsuhiro Arita",
+    "rank": 14,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base3/2.png",
+      "large": "https://images.pokemontcg.io/base3/2_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 3172,
+        "trend30d": 3.3,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 5011,
+        "trend30d": 2.5,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 8198,
+        "trend30d": 2.6,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 2263,
+        "psa9": 3637,
+        "psa10": 5957
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 2419,
+        "psa9": 3686,
+        "psa10": 5924
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 2467,
+        "psa9": 4109,
+        "psa10": 6632
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2558,
+        "psa9": 4167,
+        "psa10": 6727
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2681,
+        "psa9": 4072,
+        "psa10": 6990
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2724,
+        "psa9": 4370,
+        "psa10": 7219
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2863,
+        "psa9": 4313,
+        "psa10": 7233
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2860,
+        "psa9": 4502,
+        "psa10": 7255
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2964,
+        "psa9": 4646,
+        "psa10": 7656
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 3020,
+        "psa9": 4749,
+        "psa10": 7819
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 3072,
+        "psa9": 4887,
+        "psa10": 7991
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 3172,
+        "psa9": 5011,
+        "psa10": 8198
+      }
+    ]
+  },
+  {
+    "cardId": "base3-4",
+    "name": "Dragonite",
+    "set": "Fossil",
+    "theme": "Legendary Birds & Dragons",
+    "releaseYear": 1999,
+    "artist": "Kagemaru Himeno",
+    "rank": 15,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base3/4.png",
+      "large": "https://images.pokemontcg.io/base3/4_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 6663,
+        "trend30d": 2.7,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 10768,
+        "trend30d": 3.6,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 18611,
+        "trend30d": 2.7,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 4934,
+        "psa9": 7400,
+        "psa10": 13369
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 4828,
+        "psa9": 8335,
+        "psa10": 14886
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 5226,
+        "psa9": 8338,
+        "psa10": 15005
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 5386,
+        "psa9": 8319,
+        "psa10": 15322
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 5576,
+        "psa9": 9152,
+        "psa10": 15336
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 5697,
+        "psa9": 9023,
+        "psa10": 16017
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 6021,
+        "psa9": 9224,
+        "psa10": 16267
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 5977,
+        "psa9": 9675,
+        "psa10": 16706
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 6182,
+        "psa9": 9949,
+        "psa10": 17456
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 6279,
+        "psa9": 10158,
+        "psa10": 17596
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 6487,
+        "psa9": 10395,
+        "psa10": 18128
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 6663,
+        "psa9": 10768,
+        "psa10": 18611
+      }
+    ]
+  },
+  {
+    "cardId": "base3-5",
+    "name": "Gengar",
+    "set": "Fossil",
+    "theme": "Legendary Birds & Dragons",
+    "releaseYear": 1999,
+    "artist": "Keiji Kinebuchi",
+    "rank": 16,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base3/5.png",
+      "large": "https://images.pokemontcg.io/base3/5_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 7298,
+        "trend30d": 3.5,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 11926,
+        "trend30d": 3.6,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 19672,
+        "trend30d": 2.3,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 5139,
+        "psa9": 8561,
+        "psa10": 14050
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 5483,
+        "psa9": 8919,
+        "psa10": 15584
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 5748,
+        "psa9": 9446,
+        "psa10": 15036
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 5927,
+        "psa9": 9731,
+        "psa10": 15541
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 6091,
+        "psa9": 9622,
+        "psa10": 15968
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 6417,
+        "psa9": 10412,
+        "psa10": 16688
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 6401,
+        "psa9": 10758,
+        "psa10": 17115
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 6557,
+        "psa9": 10716,
+        "psa10": 18070
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 6777,
+        "psa9": 11168,
+        "psa10": 18042
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 6979,
+        "psa9": 11394,
+        "psa10": 18613
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 7053,
+        "psa9": 11517,
+        "psa10": 19237
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 7298,
+        "psa9": 11926,
+        "psa10": 19672
+      }
+    ]
+  },
+  {
+    "cardId": "neo1-9",
+    "name": "Lugia",
+    "set": "Neo Genesis",
+    "theme": "Neo & Johto Legends",
+    "releaseYear": 2000,
+    "artist": "Hironobu Yoshida",
+    "rank": 17,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/neo1/9.png",
+      "large": "https://images.pokemontcg.io/neo1/9_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 9128,
+        "trend30d": 2.9,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 14619,
+        "trend30d": 2.7,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 25305,
+        "trend30d": 3.9,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 6854,
+        "psa9": 11392,
+        "psa10": 18476
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 6742,
+        "psa9": 11607,
+        "psa10": 18048
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 6827,
+        "psa9": 11427,
+        "psa10": 20661
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 7520,
+        "psa9": 11494,
+        "psa10": 20964
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 7668,
+        "psa9": 11971,
+        "psa10": 20870
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 7860,
+        "psa9": 12246,
+        "psa10": 21390
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 8172,
+        "psa9": 12793,
+        "psa10": 22460
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 8204,
+        "psa9": 13043,
+        "psa10": 23032
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 8594,
+        "psa9": 13389,
+        "psa10": 23466
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 8575,
+        "psa9": 13830,
+        "psa10": 24043
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 8867,
+        "psa9": 14237,
+        "psa10": 24353
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 9128,
+        "psa9": 14619,
+        "psa10": 25305
+      }
+    ]
+  },
+  {
+    "cardId": "neo3-7",
+    "name": "Ho-oh",
+    "set": "Neo Revelation",
+    "theme": "Neo & Johto Legends",
+    "releaseYear": 2001,
+    "artist": "Kimiya Masago",
+    "rank": 18,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/neo3/7.png",
+      "large": "https://images.pokemontcg.io/neo3/7_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2087,
+        "trend30d": 4.1,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 3406,
+        "trend30d": 2.9,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 5589,
+        "trend30d": 2.7,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1569,
+        "psa9": 2446,
+        "psa10": 3989
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 1646,
+        "psa9": 2675,
+        "psa10": 4160
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 1620,
+        "psa9": 2587,
+        "psa10": 4218
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 1734,
+        "psa9": 2660,
+        "psa10": 4362
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 1743,
+        "psa9": 2896,
+        "psa10": 4677
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 1779,
+        "psa9": 2865,
+        "psa10": 4872
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 1810,
+        "psa9": 2992,
+        "psa10": 4870
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 1912,
+        "psa9": 3075,
+        "psa10": 5154
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 1916,
+        "psa9": 3132,
+        "psa10": 5195
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 1962,
+        "psa9": 3243,
+        "psa10": 5272
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2005,
+        "psa9": 3310,
+        "psa10": 5441
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2087,
+        "psa9": 3406,
+        "psa10": 5589
+      }
+    ]
+  },
+  {
+    "cardId": "neo2-13",
+    "name": "Umbreon",
+    "set": "Neo Discovery",
+    "theme": "Neo & Johto Legends",
+    "releaseYear": 2001,
+    "artist": "Kimiya Masago",
+    "rank": 19,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/neo2/13.png",
+      "large": "https://images.pokemontcg.io/neo2/13_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 8080,
+        "trend30d": 3.6,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 14016,
+        "trend30d": 3.1,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 22115,
+        "trend30d": 4.1,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 5712,
+        "psa9": 9589,
+        "psa10": 17047
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 6304,
+        "psa9": 10628,
+        "psa10": 17672
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 6107,
+        "psa9": 10594,
+        "psa10": 16540
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 6329,
+        "psa9": 11746,
+        "psa10": 17571
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 6646,
+        "psa9": 11413,
+        "psa10": 18855
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 7020,
+        "psa9": 11734,
+        "psa10": 18721
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 7172,
+        "psa9": 12352,
+        "psa10": 19373
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 7430,
+        "psa9": 12598,
+        "psa10": 20275
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 7590,
+        "psa9": 13152,
+        "psa10": 20719
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 7677,
+        "psa9": 13325,
+        "psa10": 21124
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 7802,
+        "psa9": 13588,
+        "psa10": 21234
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 8080,
+        "psa9": 14016,
+        "psa10": 22115
+      }
+    ]
+  },
+  {
+    "cardId": "neo2-1",
+    "name": "Espeon",
+    "set": "Neo Discovery",
+    "theme": "Neo & Johto Legends",
+    "releaseYear": 2001,
+    "artist": "Atsuko Nishida",
+    "rank": 20,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/neo2/1.png",
+      "large": "https://images.pokemontcg.io/neo2/1_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 5245,
+        "trend30d": 2.3,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 8863,
+        "trend30d": 4.3,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 14294,
+        "trend30d": 2.9,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 3966,
+        "psa9": 6064,
+        "psa10": 10017
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 3752,
+        "psa9": 7009,
+        "psa10": 10494
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 4306,
+        "psa9": 7146,
+        "psa10": 10771
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 4274,
+        "psa9": 7158,
+        "psa10": 11798
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 4353,
+        "psa9": 7589,
+        "psa10": 11910
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 4615,
+        "psa9": 7811,
+        "psa10": 12613
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 4557,
+        "psa9": 7864,
+        "psa10": 12748
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 4691,
+        "psa9": 7984,
+        "psa10": 13079
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 4833,
+        "psa9": 8165,
+        "psa10": 13107
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 4953,
+        "psa9": 8379,
+        "psa10": 13471
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 5128,
+        "psa9": 8499,
+        "psa10": 13893
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 5245,
+        "psa9": 8863,
+        "psa10": 14294
+      }
+    ]
+  },
+  {
+    "cardId": "neo2-12",
+    "name": "Tyranitar",
+    "set": "Neo Discovery",
+    "theme": "Neo & Johto Legends",
+    "releaseYear": 2001,
+    "artist": "Hironobu Yoshida",
+    "rank": 21,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/neo2/12.png",
+      "large": "https://images.pokemontcg.io/neo2/12_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2376,
+        "trend30d": 3.9,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 4078,
+        "trend30d": 3.2,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 6756,
+        "trend30d": 3.5,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1766,
+        "psa9": 3073,
+        "psa10": 5236
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 1792,
+        "psa9": 3199,
+        "psa10": 4838
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 1788,
+        "psa9": 3341,
+        "psa10": 5338
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 1859,
+        "psa9": 3241,
+        "psa10": 5591
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 1960,
+        "psa9": 3497,
+        "psa10": 5423
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2018,
+        "psa9": 3484,
+        "psa10": 5802
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2055,
+        "psa9": 3614,
+        "psa10": 5945
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2182,
+        "psa9": 3665,
+        "psa10": 6053
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2165,
+        "psa9": 3779,
+        "psa10": 6292
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2268,
+        "psa9": 3864,
+        "psa10": 6444
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2287,
+        "psa9": 3951,
+        "psa10": 6528
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2376,
+        "psa9": 4078,
+        "psa10": 6756
+      }
+    ]
+  },
+  {
+    "cardId": "neo3-65",
+    "name": "Shining Gyarados",
+    "set": "Neo Revelation",
+    "theme": "Neo & Johto Legends",
+    "releaseYear": 2001,
+    "artist": "Ken Sugimori",
+    "rank": 22,
+    "rarity": "Rare Shining",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/neo3/65.png",
+      "large": "https://images.pokemontcg.io/neo3/65_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 6568,
+        "trend30d": 2.4,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 10600,
+        "trend30d": 3.1,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 18430,
+        "trend30d": 3.6,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 4750,
+        "psa9": 7918,
+        "psa10": 12734
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 4950,
+        "psa9": 7535,
+        "psa10": 14537
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 4999,
+        "psa9": 8657,
+        "psa10": 15000
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 5203,
+        "psa9": 8357,
+        "psa10": 14514
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 5654,
+        "psa9": 8744,
+        "psa10": 15746
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 5533,
+        "psa9": 8987,
+        "psa10": 15583
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 5716,
+        "psa9": 9329,
+        "psa10": 16295
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 5834,
+        "psa9": 9770,
+        "psa10": 16491
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 5997,
+        "psa9": 9904,
+        "psa10": 17236
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 6140,
+        "psa9": 10028,
+        "psa10": 17537
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 6412,
+        "psa9": 10286,
+        "psa10": 17788
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 6568,
+        "psa9": 10600,
+        "psa10": 18430
+      }
+    ]
+  },
+  {
+    "cardId": "neo3-66",
+    "name": "Shining Magikarp",
+    "set": "Neo Revelation",
+    "theme": "Neo & Johto Legends",
+    "releaseYear": 2001,
+    "artist": "Ken Sugimori",
+    "rank": 23,
+    "rarity": "Rare Shining",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/neo3/66.png",
+      "large": "https://images.pokemontcg.io/neo3/66_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 6569,
+        "trend30d": 3.1,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 10721,
+        "trend30d": 3.2,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 17795,
+        "trend30d": 3.1,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 4512,
+        "psa9": 8337,
+        "psa10": 12222
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 5127,
+        "psa9": 8314,
+        "psa10": 13915
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 5021,
+        "psa9": 8076,
+        "psa10": 13733
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 5210,
+        "psa9": 8917,
+        "psa10": 14705
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 5639,
+        "psa9": 9047,
+        "psa10": 14982
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 5693,
+        "psa9": 9465,
+        "psa10": 14921
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 5827,
+        "psa9": 9382,
+        "psa10": 15663
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 5844,
+        "psa9": 9881,
+        "psa10": 16292
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 6182,
+        "psa9": 9852,
+        "psa10": 16738
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 6241,
+        "psa9": 10177,
+        "psa10": 16767
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 6370,
+        "psa9": 10393,
+        "psa10": 17253
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 6569,
+        "psa9": 10721,
+        "psa10": 17795
+      }
+    ]
+  },
+  {
+    "cardId": "neo4-109",
+    "name": "Shining Mewtwo",
+    "set": "Neo Destiny",
+    "theme": "Neo & Johto Legends",
+    "releaseYear": 2002,
+    "artist": "Hironobu Yoshida",
+    "rank": 24,
+    "rarity": "Rare Shining",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/neo4/109.png",
+      "large": "https://images.pokemontcg.io/neo4/109_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 46276,
+        "trend30d": 3.2,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 77893,
+        "trend30d": 3.3,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 123727,
+        "trend30d": 2.3,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 34255,
+        "psa9": 55617,
+        "psa10": 84621
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 36731,
+        "psa9": 60726,
+        "psa10": 89570
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 37758,
+        "psa9": 58276,
+        "psa10": 93568
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 36639,
+        "psa9": 64534,
+        "psa10": 97641
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 36995,
+        "psa9": 64744,
+        "psa10": 102553
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 40622,
+        "psa9": 67646,
+        "psa10": 105420
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 40754,
+        "psa9": 68864,
+        "psa10": 106923
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 41347,
+        "psa9": 69871,
+        "psa10": 113574
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 43285,
+        "psa9": 71824,
+        "psa10": 115902
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 43599,
+        "psa9": 74283,
+        "psa10": 116899
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 44828,
+        "psa9": 75413,
+        "psa10": 120932
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 46276,
+        "psa9": 77893,
+        "psa10": 123727
+      }
+    ]
+  },
+  {
+    "cardId": "base5-4",
+    "name": "Dark Charizard",
+    "set": "Team Rocket",
+    "theme": "Dark & Gym Rivals",
+    "releaseYear": 2000,
+    "artist": "Ken Sugimori",
+    "rank": 25,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base5/4.png",
+      "large": "https://images.pokemontcg.io/base5/4_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 11443,
+        "trend30d": 3,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 19254,
+        "trend30d": 3.8,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 33322,
+        "trend30d": 2.8,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 8793,
+        "psa9": 13233,
+        "psa10": 23114
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 8439,
+        "psa9": 13729,
+        "psa10": 24184
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 9374,
+        "psa9": 15160,
+        "psa10": 24712
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 9383,
+        "psa9": 15069,
+        "psa10": 26020
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 9471,
+        "psa9": 16505,
+        "psa10": 27040
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 9644,
+        "psa9": 16550,
+        "psa10": 28734
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 9978,
+        "psa9": 16605,
+        "psa10": 29965
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 10505,
+        "psa9": 17509,
+        "psa10": 29538
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 10574,
+        "psa9": 17946,
+        "psa10": 30818
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 10897,
+        "psa9": 18380,
+        "psa10": 31628
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 11108,
+        "psa9": 18550,
+        "psa10": 32410
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 11443,
+        "psa9": 19254,
+        "psa10": 33322
+      }
+    ]
+  },
+  {
+    "cardId": "base5-3",
+    "name": "Dark Blastoise",
+    "set": "Team Rocket",
+    "theme": "Dark & Gym Rivals",
+    "releaseYear": 2000,
+    "artist": "Mitsuhiro Arita",
+    "rank": 26,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base5/3.png",
+      "large": "https://images.pokemontcg.io/base5/3_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 6925,
+        "trend30d": 2.4,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 11526,
+        "trend30d": 3.8,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 17975,
+        "trend30d": 3.3,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 4881,
+        "psa9": 8721,
+        "psa10": 12543
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 4921,
+        "psa9": 8520,
+        "psa10": 13167
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 5650,
+        "psa9": 8871,
+        "psa10": 14084
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 5652,
+        "psa9": 9345,
+        "psa10": 14633
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 5747,
+        "psa9": 9663,
+        "psa10": 14881
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 6033,
+        "psa9": 10104,
+        "psa10": 15719
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 6224,
+        "psa9": 10001,
+        "psa10": 16237
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 6348,
+        "psa9": 10481,
+        "psa10": 16207
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 6448,
+        "psa9": 10510,
+        "psa10": 16509
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 6628,
+        "psa9": 10960,
+        "psa10": 16878
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 6765,
+        "psa9": 11099,
+        "psa10": 17405
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 6925,
+        "psa9": 11526,
+        "psa10": 17975
+      }
+    ]
+  },
+  {
+    "cardId": "base5-5",
+    "name": "Dark Dragonite",
+    "set": "Team Rocket",
+    "theme": "Dark & Gym Rivals",
+    "releaseYear": 2000,
+    "artist": "Mitsuhiro Arita",
+    "rank": 27,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base5/5.png",
+      "large": "https://images.pokemontcg.io/base5/5_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 6324,
+        "trend30d": 2.8,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 10755,
+        "trend30d": 3.7,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 17766,
+        "trend30d": 3.4,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 4629,
+        "psa9": 7721,
+        "psa10": 12250
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 4827,
+        "psa9": 8365,
+        "psa10": 12755
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 4687,
+        "psa9": 8678,
+        "psa10": 13872
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 5192,
+        "psa9": 8854,
+        "psa10": 14561
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 5220,
+        "psa9": 8752,
+        "psa10": 15307
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 5484,
+        "psa9": 9061,
+        "psa10": 15101
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 5659,
+        "psa9": 9290,
+        "psa10": 15905
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 5814,
+        "psa9": 9780,
+        "psa10": 16233
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 5849,
+        "psa9": 9866,
+        "psa10": 16396
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 5994,
+        "psa9": 10181,
+        "psa10": 16875
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 6153,
+        "psa9": 10368,
+        "psa10": 17190
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 6324,
+        "psa9": 10755,
+        "psa10": 17766
+      }
+    ]
+  },
+  {
+    "cardId": "base5-83",
+    "name": "Dark Raichu",
+    "set": "Team Rocket",
+    "theme": "Dark & Gym Rivals",
+    "releaseYear": 2000,
+    "artist": "Mitsuhiro Arita",
+    "rank": 28,
+    "rarity": "Rare Secret",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/base5/83.png",
+      "large": "https://images.pokemontcg.io/base5/83_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 8215,
+        "trend30d": 3.6,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 12846,
+        "trend30d": 3.3,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 21971,
+        "trend30d": 4,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 6373,
+        "psa9": 8745,
+        "psa10": 16251
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 5983,
+        "psa9": 9504,
+        "psa10": 16210
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 6715,
+        "psa9": 9839,
+        "psa10": 17576
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 6426,
+        "psa9": 10794,
+        "psa10": 18161
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 7034,
+        "psa9": 10338,
+        "psa10": 18050
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 6945,
+        "psa9": 11224,
+        "psa10": 19313
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 7356,
+        "psa9": 11190,
+        "psa10": 19338
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 7453,
+        "psa9": 11819,
+        "psa10": 19636
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 7686,
+        "psa9": 11882,
+        "psa10": 20577
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 7803,
+        "psa9": 12234,
+        "psa10": 20746
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 7928,
+        "psa9": 12431,
+        "psa10": 21116
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 8215,
+        "psa9": 12846,
+        "psa10": 21971
+      }
+    ]
+  },
+  {
+    "cardId": "gym2-2",
+    "name": "Blaine's Charizard",
+    "set": "Gym Challenge",
+    "theme": "Dark & Gym Rivals",
+    "releaseYear": 2000,
+    "artist": "Ken Sugimori",
+    "rank": 29,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/gym2/2.png",
+      "large": "https://images.pokemontcg.io/gym2/2_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 12287,
+        "trend30d": 3.1,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 20499,
+        "trend30d": 3.4,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 33703,
+        "trend30d": 2.5,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 8490,
+        "psa9": 15381,
+        "psa10": 23448
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 9483,
+        "psa9": 16270,
+        "psa10": 24619
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 9385,
+        "psa9": 15295,
+        "psa10": 27204
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 9930,
+        "psa9": 16672,
+        "psa10": 27559
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 10368,
+        "psa9": 16883,
+        "psa10": 28234
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 10634,
+        "psa9": 17429,
+        "psa10": 28165
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 11018,
+        "psa9": 18013,
+        "psa10": 29126
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 11324,
+        "psa9": 18310,
+        "psa10": 30078
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 11462,
+        "psa9": 19140,
+        "psa10": 30895
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 11709,
+        "psa9": 19535,
+        "psa10": 31893
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 11920,
+        "psa9": 19821,
+        "psa10": 32883
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 12287,
+        "psa9": 20499,
+        "psa10": 33703
+      }
+    ]
+  },
+  {
+    "cardId": "gym2-14",
+    "name": "Rocket's Mewtwo",
+    "set": "Gym Challenge",
+    "theme": "Dark & Gym Rivals",
+    "releaseYear": 2000,
+    "artist": "Shin-ichi Yoshida",
+    "rank": 30,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/gym2/14.png",
+      "large": "https://images.pokemontcg.io/gym2/14_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 22335,
+        "trend30d": 2.9,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 38606,
+        "trend30d": 3.4,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 64334,
+        "trend30d": 3,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 15229,
+        "psa9": 27667,
+        "psa10": 47528
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 16485,
+        "psa9": 27774,
+        "psa10": 47397
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 17495,
+        "psa9": 30042,
+        "psa10": 50029
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 18661,
+        "psa9": 30758,
+        "psa10": 52958
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 17946,
+        "psa9": 33267,
+        "psa10": 53544
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 18947,
+        "psa9": 32848,
+        "psa10": 55356
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 19263,
+        "psa9": 34064,
+        "psa10": 55567
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 20122,
+        "psa9": 35312,
+        "psa10": 58443
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 20359,
+        "psa9": 35417,
+        "psa10": 58873
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 21342,
+        "psa9": 36571,
+        "psa10": 60543
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 21695,
+        "psa9": 37337,
+        "psa10": 62439
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 22335,
+        "psa9": 38606,
+        "psa10": 64334
+      }
+    ]
+  },
+  {
+    "cardId": "gym2-13",
+    "name": "Misty's Gyarados",
+    "set": "Gym Challenge",
+    "theme": "Dark & Gym Rivals",
+    "releaseYear": 2000,
+    "artist": "Ken Sugimori",
+    "rank": 31,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/gym2/13.png",
+      "large": "https://images.pokemontcg.io/gym2/13_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2962,
+        "trend30d": 2.3,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 5066,
+        "trend30d": 3.5,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 8841,
+        "trend30d": 2.5,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 2127,
+        "psa9": 3475,
+        "psa10": 6568
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 2110,
+        "psa9": 3777,
+        "psa10": 6582
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 2310,
+        "psa9": 3853,
+        "psa10": 7245
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2472,
+        "psa9": 4193,
+        "psa10": 6937
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2386,
+        "psa9": 4269,
+        "psa10": 7468
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2598,
+        "psa9": 4399,
+        "psa10": 7715
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2635,
+        "psa9": 4494,
+        "psa10": 7673
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2664,
+        "psa9": 4634,
+        "psa10": 8104
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2723,
+        "psa9": 4722,
+        "psa10": 8280
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2788,
+        "psa9": 4834,
+        "psa10": 8479
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2895,
+        "psa9": 4897,
+        "psa10": 8623
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2962,
+        "psa9": 5066,
+        "psa10": 8841
+      }
+    ]
+  },
+  {
+    "cardId": "gym2-5",
+    "name": "Giovanni's Gyarados",
+    "set": "Gym Challenge",
+    "theme": "Dark & Gym Rivals",
+    "releaseYear": 2000,
+    "artist": "Ken Sugimori",
+    "rank": 32,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/gym2/5.png",
+      "large": "https://images.pokemontcg.io/gym2/5_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 3234,
+        "trend30d": 3.3,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 5571,
+        "trend30d": 3.2,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 9235,
+        "trend30d": 3.2,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 2205,
+        "psa9": 4135,
+        "psa10": 6311
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 2459,
+        "psa9": 3984,
+        "psa10": 7387
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 2502,
+        "psa9": 4452,
+        "psa10": 7023
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2632,
+        "psa9": 4443,
+        "psa10": 7270
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2695,
+        "psa9": 4556,
+        "psa10": 7935
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2850,
+        "psa9": 4742,
+        "psa10": 7910
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2819,
+        "psa9": 4880,
+        "psa10": 8273
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2879,
+        "psa9": 4977,
+        "psa10": 8217
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2973,
+        "psa9": 5140,
+        "psa10": 8489
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 3094,
+        "psa9": 5247,
+        "psa10": 8842
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 3131,
+        "psa9": 5398,
+        "psa10": 8947
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 3234,
+        "psa9": 5571,
+        "psa10": 9235
+      }
+    ]
+  },
+  {
+    "cardId": "sv3pt5-193",
+    "name": "Mew ex",
+    "set": "151",
+    "theme": "Scarlet & Violet Prestige",
+    "releaseYear": 2023,
+    "artist": "aky CG Works",
+    "rank": 32,
+    "rarity": "Ultra Rare",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/sv3pt5/193.png",
+      "large": "https://images.pokemontcg.io/sv3pt5/193_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 3673,
+        "trend30d": 3.3,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 5933,
+        "trend30d": 2.8,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 10557,
+        "trend30d": 2.5,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 2650,
+        "psa9": 4293,
+        "psa10": 7767
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 2901,
+        "psa9": 4546,
+        "psa10": 7801
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 2777,
+        "psa9": 4429,
+        "psa10": 8015
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2839,
+        "psa9": 4925,
+        "psa10": 8357
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 3034,
+        "psa9": 4959,
+        "psa10": 8902
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 3182,
+        "psa9": 5235,
+        "psa10": 9190
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 3183,
+        "psa9": 5361,
+        "psa10": 9153
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 3343,
+        "psa9": 5345,
+        "psa10": 9701
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 3403,
+        "psa9": 5569,
+        "psa10": 9693
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 3508,
+        "psa9": 5639,
+        "psa10": 9921
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 3556,
+        "psa9": 5772,
+        "psa10": 10296
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 3673,
+        "psa9": 5933,
+        "psa10": 10557
+      }
+    ]
+  },
+  {
+    "cardId": "neo4-4",
+    "name": "Dark Espeon",
+    "set": "Neo Destiny",
+    "theme": "Dark & Gym Rivals",
+    "releaseYear": 2002,
+    "artist": "Atsuko Nishida",
+    "rank": 34,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/neo4/4.png",
+      "large": "https://images.pokemontcg.io/neo4/4_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 4979,
+        "trend30d": 2.9,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 8019,
+        "trend30d": 3.1,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 13060,
+        "trend30d": 3.7,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 3857,
+        "psa9": 6224,
+        "psa10": 9974
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 3564,
+        "psa9": 5959,
+        "psa10": 9514
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 3907,
+        "psa9": 6360,
+        "psa10": 10536
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 4129,
+        "psa9": 6430,
+        "psa10": 10767
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 4033,
+        "psa9": 6880,
+        "psa10": 10998
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 4136,
+        "psa9": 6827,
+        "psa10": 11124
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 4502,
+        "psa9": 7136,
+        "psa10": 11745
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 4578,
+        "psa9": 7255,
+        "psa10": 11776
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 4675,
+        "psa9": 7524,
+        "psa10": 12197
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 4733,
+        "psa9": 7571,
+        "psa10": 12256
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 4838,
+        "psa9": 7775,
+        "psa10": 12595
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 4979,
+        "psa9": 8019,
+        "psa10": 13060
+      }
+    ]
+  },
+  {
+    "cardId": "neo4-12",
+    "name": "Light Arcanine",
+    "set": "Neo Destiny",
+    "theme": "Dark & Gym Rivals",
+    "releaseYear": 2002,
+    "artist": "Atsuko Nishida",
+    "rank": 35,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/neo4/12.png",
+      "large": "https://images.pokemontcg.io/neo4/12_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2420,
+        "trend30d": 3.2,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 3821,
+        "trend30d": 2.9,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 6606,
+        "trend30d": 3.4,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1712,
+        "psa9": 2891,
+        "psa10": 4689
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 1876,
+        "psa9": 2734,
+        "psa10": 5170
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 1886,
+        "psa9": 2882,
+        "psa10": 5380
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 1898,
+        "psa9": 3052,
+        "psa10": 5232
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2019,
+        "psa9": 3110,
+        "psa10": 5555
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2055,
+        "psa9": 3231,
+        "psa10": 5801
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2151,
+        "psa9": 3308,
+        "psa10": 5885
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2171,
+        "psa9": 3412,
+        "psa10": 5991
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2265,
+        "psa9": 3515,
+        "psa10": 6081
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2269,
+        "psa9": 3638,
+        "psa10": 6200
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2344,
+        "psa9": 3715,
+        "psa10": 6390
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2420,
+        "psa9": 3821,
+        "psa10": 6606
+      }
+    ]
+  },
+  {
+    "cardId": "neo4-14",
+    "name": "Light Dragonite",
+    "set": "Neo Destiny",
+    "theme": "Dark & Gym Rivals",
+    "releaseYear": 2002,
+    "artist": "Atsuko Nishida",
+    "rank": 36,
+    "rarity": "Rare Holo",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/neo4/14.png",
+      "large": "https://images.pokemontcg.io/neo4/14_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 5082,
+        "trend30d": 2.7,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 8208,
+        "trend30d": 4.1,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 12896,
+        "trend30d": 3.5,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 3734,
+        "psa9": 5893,
+        "psa10": 9048
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 3745,
+        "psa9": 6188,
+        "psa10": 9906
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 3993,
+        "psa9": 6481,
+        "psa10": 10466
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 4012,
+        "psa9": 6656,
+        "psa10": 10285
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 4197,
+        "psa9": 6987,
+        "psa10": 10474
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 4296,
+        "psa9": 7092,
+        "psa10": 11008
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 4496,
+        "psa9": 7073,
+        "psa10": 11382
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 4572,
+        "psa9": 7330,
+        "psa10": 11851
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 4724,
+        "psa9": 7523,
+        "psa10": 11816
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 4814,
+        "psa9": 7782,
+        "psa10": 12242
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 4947,
+        "psa9": 7888,
+        "psa10": 12462
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 5082,
+        "psa9": 8208,
+        "psa10": 12896
+      }
+    ]
+  },
+  {
+    "cardId": "swsh7-111",
+    "name": "Rayquaza VMAX",
+    "set": "Evolving Skies",
+    "theme": "Modern Alt Arts & Evolving Skies",
+    "releaseYear": 2021,
+    "artist": "PLANETA Mochizuki",
+    "rank": 37,
+    "rarity": "Rare Holo VMAX",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/swsh7/111.png",
+      "large": "https://images.pokemontcg.io/swsh7/111_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 3011,
+        "trend30d": 3.4,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 4976,
+        "trend30d": 3,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 8873,
+        "trend30d": 3.4,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 2129,
+        "psa9": 3790,
+        "psa10": 6285
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 2362,
+        "psa9": 3821,
+        "psa10": 6875
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 2455,
+        "psa9": 3720,
+        "psa10": 6937
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2344,
+        "psa9": 4133,
+        "psa10": 7388
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2547,
+        "psa9": 3992,
+        "psa10": 7617
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2515,
+        "psa9": 4155,
+        "psa10": 7695
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2606,
+        "psa9": 4288,
+        "psa10": 7883
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2756,
+        "psa9": 4471,
+        "psa10": 8037
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2819,
+        "psa9": 4677,
+        "psa10": 8329
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2880,
+        "psa9": 4729,
+        "psa10": 8423
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2911,
+        "psa9": 4833,
+        "psa10": 8578
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 3011,
+        "psa9": 4976,
+        "psa10": 8873
+      }
+    ]
+  },
+  {
+    "cardId": "swsh7-191",
+    "name": "Dragonite V",
+    "set": "Evolving Skies",
+    "theme": "Modern Alt Arts & Evolving Skies",
+    "releaseYear": 2021,
+    "artist": "Saki Hayashiro",
+    "rank": 38,
+    "rarity": "Rare Ultra",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/swsh7/191.png",
+      "large": "https://images.pokemontcg.io/swsh7/191_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2452,
+        "trend30d": 3.2,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 3805,
+        "trend30d": 2.3,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 6602,
+        "trend30d": 3.3,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1909,
+        "psa9": 2898,
+        "psa10": 4528
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 1927,
+        "psa9": 2816,
+        "psa10": 5279
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 1828,
+        "psa9": 3005,
+        "psa10": 4900
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 1991,
+        "psa9": 2988,
+        "psa10": 5107
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2029,
+        "psa9": 3264,
+        "psa10": 5634
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2103,
+        "psa9": 3196,
+        "psa10": 5521
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2149,
+        "psa9": 3383,
+        "psa10": 5809
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2236,
+        "psa9": 3449,
+        "psa10": 6092
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2291,
+        "psa9": 3567,
+        "psa10": 6193
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2311,
+        "psa9": 3628,
+        "psa10": 6306
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2377,
+        "psa9": 3720,
+        "psa10": 6390
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2452,
+        "psa9": 3805,
+        "psa10": 6602
+      }
+    ]
+  },
+  {
+    "cardId": "swsh7-65",
+    "name": "Espeon VMAX",
+    "set": "Evolving Skies",
+    "theme": "Modern Alt Arts & Evolving Skies",
+    "releaseYear": 2021,
+    "artist": "5ban Graphics",
+    "rank": 39,
+    "rarity": "Rare Holo VMAX",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/swsh7/65.png",
+      "large": "https://images.pokemontcg.io/swsh7/65_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2479,
+        "trend30d": 3.5,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 4122,
+        "trend30d": 3.3,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 6519,
+        "trend30d": 3.2,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1777,
+        "psa9": 3085,
+        "psa10": 5074
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 1861,
+        "psa9": 2950,
+        "psa10": 4742
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 1895,
+        "psa9": 3275,
+        "psa10": 5252
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2077,
+        "psa9": 3307,
+        "psa10": 5387
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2091,
+        "psa9": 3327,
+        "psa10": 5457
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2106,
+        "psa9": 3629,
+        "psa10": 5697
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2161,
+        "psa9": 3603,
+        "psa10": 5615
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2255,
+        "psa9": 3747,
+        "psa10": 5834
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2289,
+        "psa9": 3784,
+        "psa10": 6024
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2365,
+        "psa9": 3915,
+        "psa10": 6194
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2396,
+        "psa9": 3991,
+        "psa10": 6316
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2479,
+        "psa9": 4122,
+        "psa10": 6519
+      }
+    ]
+  },
+  {
+    "cardId": "swsh7-75",
+    "name": "Sylveon VMAX",
+    "set": "Evolving Skies",
+    "theme": "Modern Alt Arts & Evolving Skies",
+    "releaseYear": 2021,
+    "artist": "Ryota Murayama",
+    "rank": 40,
+    "rarity": "Rare Holo VMAX",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/swsh7/75.png",
+      "large": "https://images.pokemontcg.io/swsh7/75_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2260,
+        "trend30d": 3.3,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 3673,
+        "trend30d": 3.2,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 6016,
+        "trend30d": 3.2,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1555,
+        "psa9": 2565,
+        "psa10": 4515
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 1696,
+        "psa9": 2658,
+        "psa10": 4664
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 1780,
+        "psa9": 2898,
+        "psa10": 4822
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 1863,
+        "psa9": 3053,
+        "psa10": 4767
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 1810,
+        "psa9": 3080,
+        "psa10": 5128
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 1898,
+        "psa9": 3206,
+        "psa10": 5103
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2042,
+        "psa9": 3186,
+        "psa10": 5407
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2039,
+        "psa9": 3291,
+        "psa10": 5434
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2096,
+        "psa9": 3384,
+        "psa10": 5582
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2149,
+        "psa9": 3459,
+        "psa10": 5716
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2188,
+        "psa9": 3558,
+        "psa10": 5829
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2260,
+        "psa9": 3673,
+        "psa10": 6016
+      }
+    ]
+  },
+  {
+    "cardId": "swsh7-41",
+    "name": "Glaceon VMAX",
+    "set": "Evolving Skies",
+    "theme": "Modern Alt Arts & Evolving Skies",
+    "releaseYear": 2021,
+    "artist": "PLANETA Tsuji",
+    "rank": 41,
+    "rarity": "Rare Holo VMAX",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/swsh7/41.png",
+      "large": "https://images.pokemontcg.io/swsh7/41_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2017,
+        "trend30d": 2.8,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 3360,
+        "trend30d": 3.3,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 5993,
+        "trend30d": 2.7,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1451,
+        "psa9": 2438,
+        "psa10": 4498
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 1483,
+        "psa9": 2397,
+        "psa10": 4491
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 1593,
+        "psa9": 2728,
+        "psa10": 4432
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 1582,
+        "psa9": 2641,
+        "psa10": 4880
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 1646,
+        "psa9": 2889,
+        "psa10": 5172
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 1778,
+        "psa9": 2873,
+        "psa10": 5147
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 1799,
+        "psa9": 3007,
+        "psa10": 5340
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 1841,
+        "psa9": 3024,
+        "psa10": 5368
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 1887,
+        "psa9": 3086,
+        "psa10": 5603
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 1903,
+        "psa9": 3146,
+        "psa10": 5684
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 1963,
+        "psa9": 3252,
+        "psa10": 5838
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2017,
+        "psa9": 3360,
+        "psa10": 5993
+      }
+    ]
+  },
+  {
+    "cardId": "swsh7-8",
+    "name": "Leafeon VMAX",
+    "set": "Evolving Skies",
+    "theme": "Modern Alt Arts & Evolving Skies",
+    "releaseYear": 2021,
+    "artist": "PLANETA Tsuji",
+    "rank": 42,
+    "rarity": "Rare Holo VMAX",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/swsh7/8.png",
+      "large": "https://images.pokemontcg.io/swsh7/8_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2291,
+        "trend30d": 3.2,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 3577,
+        "trend30d": 2.6,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 5771,
+        "trend30d": 3.4,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1660,
+        "psa9": 2759,
+        "psa10": 4130
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 1801,
+        "psa9": 2540,
+        "psa10": 4326
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 1715,
+        "psa9": 2889,
+        "psa10": 4481
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 1878,
+        "psa9": 2878,
+        "psa10": 4573
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 1962,
+        "psa9": 2873,
+        "psa10": 4808
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 1952,
+        "psa9": 2991,
+        "psa10": 4984
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2066,
+        "psa9": 3105,
+        "psa10": 5138
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2069,
+        "psa9": 3192,
+        "psa10": 5262
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2099,
+        "psa9": 3329,
+        "psa10": 5411
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2163,
+        "psa9": 3408,
+        "psa10": 5474
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2220,
+        "psa9": 3486,
+        "psa10": 5580
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2291,
+        "psa9": 3577,
+        "psa10": 5771
+      }
+    ]
+  },
+  {
+    "cardId": "swsh8-157",
+    "name": "Gengar VMAX",
+    "set": "Fusion Strike",
+    "theme": "Modern Alt Arts & VMAX",
+    "releaseYear": 2021,
+    "artist": "5ban Graphics",
+    "rank": 43,
+    "rarity": "Rare Holo VMAX",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/swsh8/157.png",
+      "large": "https://images.pokemontcg.io/swsh8/157_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2453,
+        "trend30d": 2.3,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 3869,
+        "trend30d": 3.3,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 6396,
+        "trend30d": 4,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1888,
+        "psa9": 2876,
+        "psa10": 4880
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 1778,
+        "psa9": 2888,
+        "psa10": 5005
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 1947,
+        "psa9": 3138,
+        "psa10": 5109
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2000,
+        "psa9": 3183,
+        "psa10": 5362
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2021,
+        "psa9": 3139,
+        "psa10": 5481
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2123,
+        "psa9": 3382,
+        "psa10": 5394
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2159,
+        "psa9": 3440,
+        "psa10": 5660
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2182,
+        "psa9": 3536,
+        "psa10": 5737
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2233,
+        "psa9": 3577,
+        "psa10": 6013
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2316,
+        "psa9": 3634,
+        "psa10": 6041
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2398,
+        "psa9": 3745,
+        "psa10": 6149
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2453,
+        "psa9": 3869,
+        "psa10": 6396
+      }
+    ]
+  },
+  {
+    "cardId": "swsh8-114",
+    "name": "Mew VMAX",
+    "set": "Fusion Strike",
+    "theme": "Modern Alt Arts & VMAX",
+    "releaseYear": 2021,
+    "artist": "5ban Graphics",
+    "rank": 44,
+    "rarity": "Rare Holo VMAX",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/swsh8/114.png",
+      "large": "https://images.pokemontcg.io/swsh8/114_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2741,
+        "trend30d": 3.8,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 4587,
+        "trend30d": 3.4,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 7632,
+        "trend30d": 2.7,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1900,
+        "psa9": 3447,
+        "psa10": 5240
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 2018,
+        "psa9": 3642,
+        "psa10": 6037
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 2133,
+        "psa9": 3566,
+        "psa10": 5984
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2174,
+        "psa9": 3621,
+        "psa10": 6002
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2228,
+        "psa9": 3763,
+        "psa10": 6410
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2291,
+        "psa9": 3883,
+        "psa10": 6580
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2474,
+        "psa9": 4041,
+        "psa10": 6713
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2471,
+        "psa9": 4108,
+        "psa10": 6937
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2564,
+        "psa9": 4267,
+        "psa10": 7133
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2593,
+        "psa9": 4335,
+        "psa10": 7204
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2641,
+        "psa9": 4437,
+        "psa10": 7431
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2741,
+        "psa9": 4587,
+        "psa10": 7632
+      }
+    ]
+  },
+  {
+    "cardId": "swsh12-139",
+    "name": "Lugia VSTAR",
+    "set": "Silver Tempest",
+    "theme": "Modern Alt Arts & VMAX",
+    "releaseYear": 2022,
+    "artist": "PLANETA Mochizuki",
+    "rank": 45,
+    "rarity": "Rare Holo VSTAR",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/swsh12/139.png",
+      "large": "https://images.pokemontcg.io/swsh12/139_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2944,
+        "trend30d": 2.6,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 4660,
+        "trend30d": 2.9,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 7743,
+        "trend30d": 2.6,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 2201,
+        "psa9": 3576,
+        "psa10": 5731
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 2259,
+        "psa9": 3545,
+        "psa10": 5838
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 2408,
+        "psa9": 3577,
+        "psa10": 5857
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 2477,
+        "psa9": 3851,
+        "psa10": 6157
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 2377,
+        "psa9": 3923,
+        "psa10": 6415
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 2512,
+        "psa9": 3969,
+        "psa10": 6572
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 2608,
+        "psa9": 4090,
+        "psa10": 6944
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 2695,
+        "psa9": 4287,
+        "psa10": 7150
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 2723,
+        "psa9": 4353,
+        "psa10": 7092
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 2800,
+        "psa9": 4412,
+        "psa10": 7365
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 2868,
+        "psa9": 4527,
+        "psa10": 7547
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2944,
+        "psa9": 4660,
+        "psa10": 7743
+      }
+    ]
+  },
+  {
+    "cardId": "swsh11-131",
+    "name": "Giratina VSTAR",
+    "set": "Lost Origin",
+    "theme": "Modern Alt Arts & VMAX",
+    "releaseYear": 2022,
+    "artist": "5ban Graphics",
+    "rank": 46,
+    "rarity": "Rare Holo VSTAR",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/swsh11/131.png",
+      "large": "https://images.pokemontcg.io/swsh11/131_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 1936,
+        "trend30d": 3.8,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 3236,
+        "trend30d": 4,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 5420,
+        "trend30d": 3.7,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1440,
+        "psa9": 2344,
+        "psa10": 3699
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 1500,
+        "psa9": 2504,
+        "psa10": 4192
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 1466,
+        "psa9": 2628,
+        "psa10": 4356
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 1581,
+        "psa9": 2586,
+        "psa10": 4290
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 1665,
+        "psa9": 2763,
+        "psa10": 4649
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 1617,
+        "psa9": 2828,
+        "psa10": 4623
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 1701,
+        "psa9": 2799,
+        "psa10": 4750
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 1774,
+        "psa9": 2872,
+        "psa10": 4938
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 1816,
+        "psa9": 3034,
+        "psa10": 5095
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 1851,
+        "psa9": 3101,
+        "psa10": 5113
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 1866,
+        "psa9": 3113,
+        "psa10": 5228
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 1936,
+        "psa9": 3236,
+        "psa10": 5420
+      }
+    ]
+  },
+  {
+    "cardId": "swsh9-123",
+    "name": "Arceus VSTAR",
+    "set": "Brilliant Stars",
+    "theme": "Modern Alt Arts & VMAX",
+    "releaseYear": 2022,
+    "artist": "5ban Graphics",
+    "rank": 47,
+    "rarity": "Rare Holo VSTAR",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/swsh9/123.png",
+      "large": "https://images.pokemontcg.io/swsh9/123_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 1722,
+        "trend30d": 2.9,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 2728,
+        "trend30d": 2.7,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 4545,
+        "trend30d": 3,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1199,
+        "psa9": 2096,
+        "psa10": 3425
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 1317,
+        "psa9": 2049,
+        "psa10": 3611
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 1290,
+        "psa9": 2206,
+        "psa10": 3572
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 1355,
+        "psa9": 2248,
+        "psa10": 3827
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 1399,
+        "psa9": 2326,
+        "psa10": 3745
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 1455,
+        "psa9": 2377,
+        "psa10": 4023
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 1528,
+        "psa9": 2459,
+        "psa10": 4029
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 1590,
+        "psa9": 2495,
+        "psa10": 4100
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 1604,
+        "psa9": 2517,
+        "psa10": 4242
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 1621,
+        "psa9": 2565,
+        "psa10": 4297
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 1674,
+        "psa9": 2655,
+        "psa10": 4414
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 1722,
+        "psa9": 2728,
+        "psa10": 4545
+      }
+    ]
+  },
+  {
+    "cardId": "sv3-223",
+    "name": "Charizard ex",
+    "set": "Obsidian Flames",
+    "theme": "Scarlet & Violet Prestige",
+    "releaseYear": 2023,
+    "artist": "AKIRA EGAWA",
+    "rank": 48,
+    "rarity": "Special Illustration Rare",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/sv3/223.png",
+      "large": "https://images.pokemontcg.io/sv3/223_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 7822,
+        "trend30d": 3.5,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 13067,
+        "trend30d": 2.6,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 23314,
+        "trend30d": 2.9,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 5875,
+        "psa9": 8996,
+        "psa10": 16650
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 5620,
+        "psa9": 10345,
+        "psa10": 17992
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 5818,
+        "psa9": 10111,
+        "psa10": 17792
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 6070,
+        "psa9": 10605,
+        "psa10": 18900
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 6722,
+        "psa9": 11072,
+        "psa10": 19561
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 6575,
+        "psa9": 11292,
+        "psa10": 20113
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 6801,
+        "psa9": 11654,
+        "psa10": 20699
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 7164,
+        "psa9": 11551,
+        "psa10": 20868
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 7233,
+        "psa9": 12257,
+        "psa10": 21323
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 7440,
+        "psa9": 12267,
+        "psa10": 21830
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 7557,
+        "psa9": 12731,
+        "psa10": 22662
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 7822,
+        "psa9": 13067,
+        "psa10": 23314
+      }
+    ]
+  },
+  {
+    "cardId": "sv3pt5-198",
+    "name": "Venusaur ex",
+    "set": "151",
+    "theme": "Scarlet & Violet Prestige",
+    "releaseYear": 2023,
+    "artist": "Yoriyuki Ikegami",
+    "rank": 49,
+    "rarity": "Special Illustration Rare",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/sv3pt5/198.png",
+      "large": "https://images.pokemontcg.io/sv3pt5/198_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 4946,
+        "trend30d": 3,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 8438,
+        "trend30d": 3.8,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 13798,
+        "trend30d": 3.4,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 3657,
+        "psa9": 6555,
+        "psa10": 9867
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 3661,
+        "psa9": 6137,
+        "psa10": 10954
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 3821,
+        "psa9": 6375,
+        "psa10": 10942
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 3875,
+        "psa9": 6976,
+        "psa10": 11605
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 4011,
+        "psa9": 6832,
+        "psa10": 11538
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 4344,
+        "psa9": 7160,
+        "psa10": 12022
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 4354,
+        "psa9": 7523,
+        "psa10": 12203
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 4534,
+        "psa9": 7541,
+        "psa10": 12325
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 4653,
+        "psa9": 7741,
+        "psa10": 12763
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 4653,
+        "psa9": 7960,
+        "psa10": 13009
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 4802,
+        "psa9": 8133,
+        "psa10": 13339
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 4946,
+        "psa9": 8438,
+        "psa10": 13798
+      }
+    ]
+  },
+  {
+    "cardId": "sv3pt5-201",
+    "name": "Alakazam ex",
+    "set": "151",
+    "theme": "Scarlet & Violet Prestige",
+    "releaseYear": 2023,
+    "artist": "Shinya Komatsu",
+    "rank": 50,
+    "rarity": "Special Illustration Rare",
+    "imageUrls": {
+      "small": "https://images.pokemontcg.io/sv3pt5/201.png",
+      "large": "https://images.pokemontcg.io/sv3pt5/201_hires.png"
+    },
+    "currentPrices": {
+      "psa8": {
+        "value": 2014,
+        "trend30d": 3.5,
+        "direction": "up"
+      },
+      "psa9": {
+        "value": 3124,
+        "trend30d": 3.8,
+        "direction": "up"
+      },
+      "psa10": {
+        "value": 5248,
+        "trend30d": 2.9,
+        "direction": "up"
+      }
+    },
+    "history": [
+      {
+        "month": "Jul",
+        "date": "2025-07-15",
+        "psa8": 1541,
+        "psa9": 2382,
+        "psa10": 3842
+      },
+      {
+        "month": "Aug",
+        "date": "2025-08-15",
+        "psa8": 1493,
+        "psa9": 2242,
+        "psa10": 3845
+      },
+      {
+        "month": "Sep",
+        "date": "2025-09-15",
+        "psa8": 1645,
+        "psa9": 2384,
+        "psa10": 4278
+      },
+      {
+        "month": "Oct",
+        "date": "2025-10-15",
+        "psa8": 1661,
+        "psa9": 2613,
+        "psa10": 4322
+      },
+      {
+        "month": "Nov",
+        "date": "2025-11-15",
+        "psa8": 1731,
+        "psa9": 2627,
+        "psa10": 4314
+      },
+      {
+        "month": "Dec",
+        "date": "2025-12-15",
+        "psa8": 1724,
+        "psa9": 2745,
+        "psa10": 4446
+      },
+      {
+        "month": "Jan",
+        "date": "2026-01-15",
+        "psa8": 1754,
+        "psa9": 2761,
+        "psa10": 4724
+      },
+      {
+        "month": "Feb",
+        "date": "2026-02-15",
+        "psa8": 1862,
+        "psa9": 2837,
+        "psa10": 4722
+      },
+      {
+        "month": "Mar",
+        "date": "2026-03-15",
+        "psa8": 1851,
+        "psa9": 2857,
+        "psa10": 4922
+      },
+      {
+        "month": "Apr",
+        "date": "2026-04-15",
+        "psa8": 1931,
+        "psa9": 2970,
+        "psa10": 5027
+      },
+      {
+        "month": "May",
+        "date": "2026-05-15",
+        "psa8": 1945,
+        "psa9": 3011,
+        "psa10": 5098
+      },
+      {
+        "month": "Jun",
+        "date": "2026-06-15",
+        "psa8": 2014,
+        "psa9": 3124,
+        "psa10": 5248
       }
     ]
   }

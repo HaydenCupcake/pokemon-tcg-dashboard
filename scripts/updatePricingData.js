@@ -1,5 +1,7 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
+import { execSync } from 'node:child_process'
+import { existsSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import dotenv from 'dotenv'
 import { ApifyClient } from 'apify-client'
@@ -13,13 +15,10 @@ const rootDir = path.resolve(__dirname, '..')
 const APIFY_API_TOKEN = process.env.APIFY_API_TOKEN
 const APIFY_ACTOR_ID = process.env.APIFY_ACTOR_ID || 'jungle_synthesizer/pokemontcg-io-cards-api-wrapper'
 const OUTPUT_FILE = process.env.APIFY_OUTPUT_FILE || 'src/data/realPricingData.json'
+const SEED_FILE = process.env.APIFY_SEED_FILE || 'src/data/mockPricingData.json'
+const PYTHON_FALLBACK_SCRIPT = process.env.PYTHON_FALLBACK_SCRIPT || path.join(__dirname, 'fallback_scraper.py')
 const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 const GRADES = ['psa8', 'psa9', 'psa10']
-
-if (!APIFY_API_TOKEN) {
-  console.error('Missing APIFY_API_TOKEN in .env')
-  process.exit(1)
-}
 
 const publicImageOverrides = {
   'Illustrator Pikachu': {
@@ -104,6 +103,7 @@ function sanitizePublicRecord(card) {
     cardId: card.cardId,
     name: card.name,
     set: card.set,
+    theme: card.theme,
     releaseYear: card.releaseYear,
     artist: card.artist,
     rank: card.rank,
@@ -354,21 +354,73 @@ function mapLiveCard(seedCard, liveItem, rule = {}, supplemental) {
 
   return sanitizePublicRecord({
     ...seedCard,
-    cardId: preserveSeedIdentity ? seedCard.cardId : (liveItem.id || seedCard.cardId),
-    name: preserveSeedIdentity ? seedCard.name : (liveItem.name || seedCard.name),
-    set: preserveSeedIdentity ? seedCard.set : (setData?.name || seedCard.set),
-    releaseYear: preserveSeedIdentity ? seedCard.releaseYear : releaseYear,
-    artist: preserveSeedIdentity ? seedCard.artist : (liveItem.artist || seedCard.artist),
-    rarity: preserveSeedIdentity ? seedCard.rarity : (liveItem.rarity || seedCard.rarity),
+    cardId: seedCard.cardId,
+    name: seedCard.name,
+    set: seedCard.set,
+    theme: seedCard.theme,
+    releaseYear: seedCard.releaseYear,
+    artist: seedCard.artist,
+    rarity: seedCard.rarity,
     imageUrls: publicImagesFor(seedCard),
     currentPrices,
     history,
   })
 }
 
-async function main() {
+function shellQuote(value) {
+  return `'${String(value).replace(/'/g, `'\\''`)}'`
+}
+
+export function classifyApifyFailure(error) {
+  const message = String(error?.message || error || '').toLowerCase()
+  if (/missing apify_api_token|missing apify api token|api token/.test(message)) return 'missing-token'
+  if (/quota|credit|billing|payment required|insufficient/.test(message)) return 'quota'
+  if (/rate limit|too many requests|429/.test(message)) return 'rate-limit'
+  return 'unknown-error'
+}
+
+export function pickPythonExecutable() {
+  const venvPython = path.join(__dirname, '.venv', 'bin', 'python')
+  return existsSync(venvPython) ? venvPython : 'python3'
+}
+
+export function buildPythonFallbackCommand({ pythonBin, scriptPath, seedPath, outputPath }) {
+  return [
+    shellQuote(pythonBin),
+    shellQuote(scriptPath),
+    '--seed', shellQuote(seedPath),
+    '--output', shellQuote(outputPath),
+  ].join(' ')
+}
+
+export function runPythonFallback(reason) {
+  const pythonBin = pickPythonExecutable()
+  const seedPath = path.join(rootDir, SEED_FILE)
+  const outputPath = path.join(rootDir, OUTPUT_FILE)
+  const command = buildPythonFallbackCommand({
+    pythonBin,
+    scriptPath: PYTHON_FALLBACK_SCRIPT,
+    seedPath,
+    outputPath,
+  })
+  console.log(`updatePricingData: running Crawl4AI fallback (${reason}) with ${pythonBin}`)
+  execSync(command, {
+    cwd: rootDir,
+    stdio: 'inherit',
+    env: {
+      ...process.env,
+      FALLBACK_REASON: reason,
+    },
+  })
+}
+
+export async function runApifyUpdate() {
+  if (!APIFY_API_TOKEN) {
+    throw new Error('Missing APIFY_API_TOKEN in .env')
+  }
+
   const client = new ApifyClient({ token: APIFY_API_TOKEN })
-  const seedPath = path.join(rootDir, 'src', 'data', 'mockPricingData.json')
+  const seedPath = path.join(rootDir, SEED_FILE)
   const outputPath = path.join(rootDir, OUTPUT_FILE)
   const seedCards = JSON.parse(await fs.readFile(seedPath, 'utf8'))
   const existingOutput = JSON.parse(await fs.readFile(outputPath, 'utf8').catch(() => '[]'))
@@ -402,10 +454,26 @@ async function main() {
 
   await fs.mkdir(path.dirname(outputPath), { recursive: true })
   await fs.writeFile(outputPath, `${JSON.stringify(results, null, 2)}\n`, 'utf8')
-  console.log(`Wrote ${results.length} source-free cards to ${outputPath}`)
+  console.log(`updatePricingData: wrote ${results.length} cards to ${outputPath} via Apify`) 
 }
 
-main().catch((error) => {
-  console.error('updatePricingData failed:', error)
-  process.exit(1)
-})
+export async function main() {
+  try {
+    console.log(`updatePricingData: attempting Apify actor ${APIFY_ACTOR_ID}`)
+    await runApifyUpdate()
+    console.log('updatePricingData: success via Apify')
+  } catch (error) {
+    const reason = classifyApifyFailure(error)
+    console.warn(`updatePricingData: Apify failed (${reason}) -> ${error.message}`)
+    console.warn('updatePricingData: failing over to local Crawl4AI scraper')
+    runPythonFallback(reason)
+    console.log('updatePricingData: success via Crawl4AI fallback')
+  }
+}
+
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main().catch((error) => {
+    console.error('updatePricingData failed:', error)
+    process.exit(1)
+  })
+}

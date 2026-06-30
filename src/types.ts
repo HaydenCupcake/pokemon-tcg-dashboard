@@ -23,6 +23,7 @@ export interface PokemonCardPriceRecord {
   artist: string
   rank: number
   rarity: string
+  theme?: string
   imageUrls: {
     small: string
     large: string
